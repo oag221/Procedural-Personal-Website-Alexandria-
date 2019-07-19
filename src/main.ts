@@ -8,7 +8,7 @@ require('jquery.easing')
 require('bootstrap/dist/css/bootstrap.css')
 require('devicons/css/devicons.css')
 require('@fortawesome/fontawesome-free/css/all.min.css')
-require('./assets/css/resume.min.css');
+require('./assets/css/resume.css');
 
 Vue.prototype.jquery = jquery;
 
