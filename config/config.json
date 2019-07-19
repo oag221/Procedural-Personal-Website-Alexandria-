@@ -1,0 +1,43 @@
+{
+  "about": {
+    "firstName": "Will",
+    "lastName": "Peracchio",
+    "phone": "+1 (732) 713-9493",
+    "email": "waperacchio@gmail.com",
+    "address": {
+      "streetAddress": "2365 Apple Ridge Circle",
+      "city": "Manasquan",
+      "state": "NJ",
+      "zip": "08736"
+    },
+    "socialmedia": {
+      "linkedin": "https://www.linkedin.com/in/william-peracchio/",
+      "github": "https://github.com/willperacchio/",
+      "twitter": null,
+      "facebook": null
+    },
+    "bio": "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me."
+  },
+  "education": [
+    {
+      "name": "Lehigh University",
+      "degree": "Master of Science",
+      "major": ["Computer Science"],
+      "startDate": "January 2020",
+      "endDate": "May 2021"
+    },
+    {
+      "name": "Lehigh University",
+      "degree": "Bachelor of Science",
+      "major": ["Computer Science & Business"],
+      "minor": ["Data Science", "Entrepreneurship", "Backe"],
+      "startDate": "August 2017",
+      "endDate": "January 2021",
+      "gpa": {
+        "cumulative": "3.97",
+        "major": "4.00",
+        "scale": "4.00"
+      }
+    }
+  ]
+}

@@ -3,11 +3,11 @@
     <AsideComponent/>
 
     <div class="container-fluid p-0">
-      <AboutComponent/>
+      <AboutComponent :About="config.about" />
       <hr class="m-0" />
       <ExperienceComponent/>
       <hr class="m-0" />
-      <EducationComponent/>
+      <EducationComponent :EducationList="config.education" />
       <hr class="m-0" />
       <SkillsComponent/>
       <hr class="m-0" />
@@ -19,6 +19,8 @@
 </template>
 
 <script>
+import config from '../config/config.json'
+
 import AsideComponent from './components/AsideComponent'
 import AboutComponent from './components/AboutComponent.vue'
 import ExperienceComponent from './components/ExperienceComponent.vue'
@@ -39,7 +41,7 @@ export default {
   },
   data() {
     return {
-      title: "My portfolio"
+      config: config
     };
   },
   mounted() {

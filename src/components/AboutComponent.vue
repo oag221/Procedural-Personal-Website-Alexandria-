@@ -2,31 +2,41 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0">
-        Clarence
-        <span class="text-primary">Taylor</span>
+        {{About.firstName}}
+        <span class="text-primary">{{About.lastName}}</span>
       </h1>
       <div class="subheading mb-5">
-        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-        <a
-          href="mailto:name@email.com"
-        >name@email.com</a>
+        {{About.address.streetAddress}} · 
+        {{About.address.city}}, {{About.address.state}} {{About.address.zip}} · 
+        {{About.phone}} ·
+        <a :href="'mailto:' + About.email" target="_blank">
+          {{About.email}}
+        </a>
       </div>
-      <p
-        class="lead mb-5"
-      >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-      <div class="social-icons">
-        <a href="#">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
+      <p class="lead mb-5">
+        {{About.bio}}
+      </p>
+      <div class="social-icons" v-if="About.socialmedia">
+        <span v-if="About.socialmedia.linkedin">
+          <a :href="About.socialmedia.linkedin" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </span>
+        <span v-if="About.socialmedia.facebook">
+          <a :href="About.socialmedia.facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </span>
+        <span v-if="About.socialmedia.github">
+          <a :href="About.socialmedia.github" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
+        <span v-if="About.socialmedia.twitter">
+          <a :href="About.socialmedia.twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </span>
       </div>
     </div>
   </section>
@@ -37,6 +47,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class AboutComponent extends Vue {
+  @Prop(Object) readonly About: object | undefined;
 }
 </script>
 
