@@ -23,21 +23,28 @@
       "name": "Lehigh University",
       "degree": "Master of Science",
       "major": ["Computer Science"],
-      "startDate": "January 2020",
+      "startDate": "January 2021",
       "endDate": "May 2021"
     },
     {
       "name": "Lehigh University",
       "degree": "Bachelor of Science",
       "major": ["Computer Science & Business"],
-      "minor": ["Data Science", "Entrepreneurship", "Backe"],
+      "minor": ["Data Science", "Entrepreneurship"],
       "startDate": "August 2017",
       "endDate": "January 2021",
+      "description": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred.",
       "gpa": {
         "cumulative": "3.97",
         "major": "4.00",
         "scale": "4.00"
       }
+    },
+    {
+      "name": "High Technology High School",
+      "startDate": "September 2013",
+      "endDate": "June 2017",
+      "description": "High Technology High School is a pre-engineering career academy that emphasizes the interconnections among mathematics, science, technology and the humanities, prepares students to become proactive and creative problem solvers, effective communicators, and tomorrow's leaders through a rigorous, specialized curriculum and collaborative partnerships."
     }
   ]
 }

@@ -3,14 +3,21 @@
     <div class="w-100">
       <h2 class="mb-5">Education</h2>
 
-      <div v-for="(education, index) in EducationList" v-bind:key="index">
+      <div v-for="(education, index) in EducationList" v-bind:key="'EducationList' + index">
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">{{education.name}}</h3>
-            <div class="subheading mb-3">{{education.degree}}</div>
+            <div class="mb-0 school-name-date">
+              <span class="school-name">
+                {{education.name}}
+              </span>
+              <span class="resume-date text-md-right school-date">
+                <span class="text-primary">{{education.startDate}} - {{education.endDate}}</span>
+              </span>
+            </div>
+            <div class="subheading mb-3" v-if="education.degree">{{education.degree}}</div>
             <div v-if="education.major">
-              <span v-if="education.major.length === 1">Minor: </span>
-              <span v-if="education.major.length > 1">Minors: </span>
+              <span v-if="education.major.length === 1">Major: </span>
+              <span v-if="education.major.length > 1">Majors: </span>
               <span v-for="(major, majorIndex) in education.major" v-bind:key="education.name + 'Major' + major">
                 {{major}}<span v-if="majorIndex !== education.major.length - 1">,
                   <span v-if="majorIndex === education.major.length - 2 && education.major.length > 2">
@@ -38,13 +45,13 @@
                 Major GPA: {{education.gpa.major}} / {{education.gpa.scale}}
               </div>
             </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">{{education.startDate}} - {{education.endDate}}</span>
+            <div v-if="education.description">
+              {{education.description}}
+            </div>
           </div>
         </div>
+        <hr v-if="index !== EducationList.length - 1"/>
       </div>
-      
 
     </div>
   </section>
@@ -60,4 +67,26 @@ export default class EducationComponent extends Vue {
 </script>
 
 <style scoped lang="scss">
+section.resume-section {
+  min-height: 50vh;
+}
+
+.resume-content {
+  width: 100%;
+}
+
+.school-name-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.school-date {
+  font-size: 1.5rem;
+}
+
 </style>
