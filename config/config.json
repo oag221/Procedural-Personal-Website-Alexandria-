@@ -18,22 +18,27 @@
     },
     "bio": "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me."
   },
-  "education": [
-    {
+  "education": [{
       "name": "Lehigh University",
       "degree": "Master of Science",
       "major": ["Computer Science"],
       "startDate": "January 2021",
-      "endDate": "May 2021"
+      "endDate": "May 2021",
+      "description": [{
+        "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+      }]
     },
     {
       "name": "Lehigh University",
       "degree": "Bachelor of Science",
       "major": ["Computer Science & Business"],
       "minor": ["Data Science", "Entrepreneurship"],
+      "certificate": ["Global Citizenship"],
       "startDate": "August 2017",
       "endDate": "January 2021",
-      "description": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred.",
+      "description": [{
+        "text": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred."
+      }],
       "gpa": {
         "cumulative": "3.97",
         "major": "4.00",
@@ -44,7 +49,43 @@
       "name": "High Technology High School",
       "startDate": "September 2013",
       "endDate": "June 2017",
-      "description": "High Technology High School is a pre-engineering career academy that emphasizes the interconnections among mathematics, science, technology and the humanities, prepares students to become proactive and creative problem solvers, effective communicators, and tomorrow's leaders through a rigorous, specialized curriculum and collaborative partnerships."
+      "description": [{
+        "text": "High Technology High School is a pre-engineering career academy that emphasizes the interconnections among mathematics, science, technology and the humanities, prepares students to become proactive and creative problem solvers, effective communicators, and tomorrow's leaders through a rigorous, specialized curriculum and collaborative partnerships."
+      }],
+      "gpa": {
+        "cumulative": "98.21",
+        "scale": "100.00 (Unweighted)"
+      }
+    }
+  ],
+  "experience": [{
+      "role": "Software Development Intern",
+      "company": "OSIsoft, LLC.",
+      "startDate": "June 2019",
+      "endDate": "August 2019",
+      "bullets": [
+        "Hi",
+        "Hi 2",
+        "Hi 3"
+      ]
+    },
+    {
+      "role": "Blockchain Research Intern",
+      "company": "PwC Czech Republic",
+      "startDate": "May 2019",
+      "endDate": "June 2019",
+      "description": [{
+        "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+      }]
+    },
+    {
+      "role": "Engineering Intern",
+      "company": "Commvault",
+      "startDate": "September 2016",
+      "endDate": "January 2017",
+      "description": [{
+        "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+      }]
     }
   ]
 }

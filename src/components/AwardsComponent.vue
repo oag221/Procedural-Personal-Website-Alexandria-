@@ -47,10 +47,9 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-
-@Component
-export default class AwardsComponent extends Vue {}
+export default {
+  name: "AwardsComponent"
+}
 </script>
 
 <style scoped lang="scss">

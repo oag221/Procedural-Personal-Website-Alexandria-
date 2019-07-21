@@ -3,11 +3,11 @@
     <AsideComponent/>
 
     <div class="container-fluid p-0">
-      <AboutComponent :About="config.about" />
+      <AboutComponent v-bind:About="config.about" />
       <hr class="m-0" />
-      <ExperienceComponent/>
+      <ExperienceComponent v-bind:ExperienceList="config.experience" />
       <hr class="m-0" />
-      <EducationComponent :EducationList="config.education" />
+      <EducationComponent v-bind:EducationList="config.education" />
       <hr class="m-0" />
       <SkillsComponent/>
       <hr class="m-0" />
@@ -18,13 +18,13 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import config from '../config/config.json'
 
 import AsideComponent from './components/AsideComponent'
 import AboutComponent from './components/AboutComponent.vue'
 import ExperienceComponent from './components/ExperienceComponent.vue'
-import EducationComponent from './components/EducationComponent.vue'
+import EducationComponent from './components/Education/EducationComponent.vue'
 import SkillsComponent from './components/SkillsComponent.vue'
 import InterestsComponent from './components/InterestsComponent'
 import AwardsComponent from './components/AwardsComponent'
@@ -68,6 +68,7 @@ export default {
       $('body').scrollspy({
         target: '#sideNav'
       })
+      $('[data-toggle="tooltip"]').tooltip()
     })
   }
 };

@@ -47,10 +47,9 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-
-@Component
-export default class AsideComponent extends Vue {}
+export default {
+  name: "AsideComponent"
+}
 </script>
 
 <style scoped lang="scss">

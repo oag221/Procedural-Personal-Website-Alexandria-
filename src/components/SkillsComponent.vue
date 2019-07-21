@@ -67,10 +67,9 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-
-@Component
-export default class SkillsComponent extends Vue {}
+export default {
+  name: "SkillsComponent"
+}
 </script>
 
 <style scoped lang="scss">

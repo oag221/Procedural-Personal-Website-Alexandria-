@@ -18,22 +18,22 @@
       </p>
       <div class="social-icons" v-if="About.socialmedia">
         <span v-if="About.socialmedia.linkedin">
-          <a :href="About.socialmedia.linkedin" target="_blank">
+          <a :href="About.socialmedia.linkedin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </span>
         <span v-if="About.socialmedia.facebook">
-          <a :href="About.socialmedia.facebook" target="_blank">
+          <a :href="About.socialmedia.facebook" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook">
             <i class="fab fa-facebook-f"></i>
           </a>
         </span>
         <span v-if="About.socialmedia.github">
-          <a :href="About.socialmedia.github" target="_blank">
+          <a :href="About.socialmedia.github" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github">
             <i class="fab fa-github"></i>
           </a>
         </span>
         <span v-if="About.socialmedia.twitter">
-          <a :href="About.socialmedia.twitter" target="_blank">
+          <a :href="About.socialmedia.twitter" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter">
             <i class="fab fa-twitter"></i>
           </a>
         </span>
@@ -43,14 +43,17 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-
-@Component
-export default class AboutComponent extends Vue {
-  @Prop(Object) readonly About: object | undefined;
+export default {
+  name: "AboutComponent",
+  props: {
+    About: Object
+  }
 }
 </script>
 
 <style scoped lang="scss">
+section.resume-section {
+  min-height: 80vh;
+}
 
 </style>
