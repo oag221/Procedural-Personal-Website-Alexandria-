@@ -103,22 +103,4 @@ export default {
 section.resume-section {
   min-height: 50vh;
 }
-
-.resume-content {
-  width: 100%;
-}
-
-.school-name-date {
-  display: flex;
-  justify-content: space-between;
-}
-
-.school-name {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.school-date {
-  font-size: 1.5rem;
-}
 </style>

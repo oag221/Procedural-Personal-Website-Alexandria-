@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.resume-content {
+div.resume-content {
   width: 100%;
 }
 

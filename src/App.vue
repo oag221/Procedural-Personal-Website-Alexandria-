@@ -21,13 +21,13 @@
 <script lang="ts">
 import config from '../config/config.json'
 
-import AsideComponent from './components/AsideComponent'
-import AboutComponent from './components/AboutComponent.vue'
-import ExperienceComponent from './components/ExperienceComponent.vue'
+import AsideComponent from './components/Aside/AsideComponent.vue'
+import AboutComponent from './components/About/AboutComponent.vue'
+import ExperienceComponent from './components/Experience/ExperienceComponent.vue'
 import EducationComponent from './components/Education/EducationComponent.vue'
-import SkillsComponent from './components/SkillsComponent.vue'
-import InterestsComponent from './components/InterestsComponent'
-import AwardsComponent from './components/AwardsComponent'
+import SkillsComponent from './components/Skills/SkillsComponent.vue'
+import InterestsComponent from './components/Interests/InterestsComponent.vue'
+import AwardsComponent from './components/Awards/AwardsComponent.vue'
 
 export default {
   components: {
