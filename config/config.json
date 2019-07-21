@@ -87,5 +87,55 @@
         "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
       }]
     }
-  ]
+  ],
+  "skills": {
+    "list" : [
+      {
+        "title": "Front-end Web Development",
+        "list": [
+          { "title": "HTML5", "icon": "fab fa-html5" },
+          { "title": "CSS3", "icon": "fab fa-css3-alt" },
+          { "title": "JavaScript ES6+", "icon": "fab fa-js-square" },
+          { "title": "Vue", "icon": "fab fa-vuejs" },
+          { "title": "Angular", "icon": "fab fa-angular" },
+          { "title": "React", "icon": "fab fa-react" },
+          { "title": "Sass", "icon": "fab fa-sass" },
+          { "title": "Bootstrap 4", "icon": "fab fa-bootstrap" }
+        ]
+      },
+      {
+        "title": "Back-end Development",
+        "list": [
+          { "title": "MongoDB", "icon": "devicon-mongodb-plain" },
+          { "title": "Oracle DB", "icon": "devicon-oracle-plain"},
+          { "title": "PostgreSQL", "icon": "devicon-postgresql-plain"},
+          { "title": "Docker", "icon": "fab fa-docker" },
+          { "title": "Express", "icon": "devicon-express-original" },
+          { "title": "Meteor", "icon": "devicon-meteor-plain"}
+        ]
+      },
+      {
+        "title": "Programming Languages",
+        "list": [
+          { "title": "NodeJS", "icon": "fab fa-node-js" },
+          { "title": "Java", "icon": "fab fa-java" },
+          { "title": "Python", "icon": "fab fa-python" },
+          { "title": "Typescript", "icon": "devicon-typescript-plain" },
+          { "title": "R", "icon": "fab fa-r-project" },
+          { "title": "C++", "icon": "devicon-cplusplus-plain" },
+          { "title": "C", "icon": "devicon-c-plain" }
+        ]
+      },
+      {
+        "title": "Productivity Tools",
+        "list": [
+          { "title": "Git", "icon": "fab fa-git-alt" },
+          { "title": "Slack", "icon": "fab fa-slack" },
+          { "title": "Trello", "icon": "devicon-trello-plain" },
+          { "title": "Stack Overflow", "icon": "fab fa-stack-overflow" },
+          { "title": "Visual Studio", "icon": "devicon-visualstudio-plain" }
+        ]
+      }
+    ]
+  }
 }

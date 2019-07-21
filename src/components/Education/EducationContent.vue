@@ -8,61 +8,11 @@
         </span>
       </div>
       <div class="subheading mb-1" v-if="education.degree">{{education.degree}}</div>
-      <span v-if="education.major">
-        <span v-if="education.major.length === 1">Major:</span>
-        <span v-if="education.major.length > 1">Majors:</span>
-        <span
-          v-for="(major, majorIndex) in education.major"
-          v-bind:key="education.name + 'Major' + major"
-        >
-          {{major}}
-          <span v-if="majorIndex !== education.major.length - 1">
-            ,
-            <span
-              v-if="majorIndex === education.major.length - 2 && education.major.length > 2"
-            >&amp;</span>
-          </span>
-        </span>
-      </span>
-      <div v-if="education.minor">
-        <span v-if="education.minor.length === 1">Minor:</span>
-        <span v-if="education.minor.length > 1">Minors:</span>
-        <span
-          v-for="(minor, minorIndex) in education.minor"
-          v-bind:key="education.name + 'Minor' + minor"
-        >
-          {{minor}}
-          <span v-if="minorIndex !== education.minor.length - 1">
-            ,
-            <span
-              v-if="minorIndex === education.minor.length - 2 && education.minor.length > 2"
-            >&amp;</span>
-          </span>
-        </span>
-      </div>
-      <div v-if="education.certificate">
-        <span v-if="education.certificate.length === 1">Certificate:</span>
-        <span v-if="education.certificate.length > 1">Certificates:</span>
-        <span
-          v-for="(certificate, certIndex) in education.certificate"
-          v-bind:key="education.name + 'Certificate' + certificate"
-        >
-          {{certificate}}
-          <span v-if="certIndex !== education.certificate.length - 1">
-            ,
-            <span
-              v-if="certIndex === education.certificate.length - 2 && education.certificate.length > 2"
-            >&amp;</span>
-          </span>
-        </span>
-      </div>
-      <div v-if="education.gpa">
-        <span
-          v-if="education.gpa.cumulative"
-        >Cumulative GPA: {{education.gpa.cumulative}} / {{education.gpa.scale}}</span>
-        <span
-          v-if="education.gpa.major"
-        >Major GPA: {{education.gpa.major}} / {{education.gpa.scale}}</span>
+      <div class="detail-attributes">
+        <EducationMajor v-if="education.major" :Major="education.major"/>
+        <EducationGPA v-if="education.gpa" :GPA="education.gpa"/>
+        <EducationMinor v-if="education.minor" :Minor="education.minor"/>
+        <EducationCertificate v-if="education.certificate" :Certificate="education.certificate"/>
       </div>
       <div
         class="mt-4"
@@ -74,11 +24,22 @@
 </template>
 
 <script lang="ts">
+import EducationMajor from './EducationMajor.vue';
+import EducationMinor from './EducationMinor.vue';
+import EducationCertificate from './EducationCertificate.vue';
+import EducationGPA from './EducationGPA.vue';
+
 export default {
   name: "EducationContent",
   props: {
     education: Object,
     index: Number
+  },
+  components: {
+    EducationMajor,
+    EducationMinor,
+    EducationCertificate,
+    EducationGPA
   }
 }
 </script>
@@ -100,5 +61,10 @@ div.resume-content {
 
 .school-date {
   font-size: 1.5rem;
+}
+
+.detail-attributes {
+  display: flex;
+  flex-direction: column;
 }
 </style>
