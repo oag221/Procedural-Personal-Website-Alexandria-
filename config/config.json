@@ -89,6 +89,28 @@
     }
   ],
   "skills": {
+    "catalog": [
+      {
+        "id": "HTML5",
+        "title": "HTML5",
+        "icon": "fab fa-html5",
+        "description": "Like many other programmers, HTML was one of the first technologies I was exposed to. I find it as a phenomenal entry point for learning computer science, as it's a straightforward, visual representation of the power of computers - and serves as the underlying foundation for the internet.",
+        "link": "https://getbootstrap.com",
+        "subheading": "The structure of the web",
+        "progress": "50",
+        "level": "Proficient"
+      },
+      {
+        "id": "CSS3",
+        "title": "CSS3",
+        "icon": "fab fa-css3-alt",
+        "description": "Cascading Style Sheets (CSS) is inseperably linked to HTML. It provides the basis for styling on the web.",
+        "link": "https://getbootstrap.com",
+        "subheading": "The style of the web",
+        "progress": "70",
+        "level": "Proficient"
+      }
+    ],
     "list" : [
       {
         "title": "Front-end Web Development",

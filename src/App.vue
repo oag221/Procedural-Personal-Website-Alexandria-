@@ -9,7 +9,7 @@
       <hr class="m-0" />
       <EducationComponent v-bind:EducationList="config.education" />
       <hr class="m-0" />
-      <SkillsComponent v-bind:SkillsList="config.skills"/>
+      <SkillsComponent v-bind:Skills="config.skills" />
       <hr class="m-0" />
       <InterestsComponent/>
       <hr class="m-0" />

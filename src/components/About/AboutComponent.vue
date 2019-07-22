@@ -38,15 +38,27 @@
           </a>
         </span>
       </div>
+      <div class="resume mt-4">
+        <a class="btn btn-primary btn-lg" :href="pdf" target="_blank">
+          <i class="fas fa-file-pdf"></i>
+          Resume
+        </a>
+      </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
+
 export default {
   name: "AboutComponent",
   props: {
     About: Object
+  },
+  data: () => {
+    return {
+      pdf: "https://www.williamperacchio.com/resume.pdf"
+    }
   }
 }
 </script>
