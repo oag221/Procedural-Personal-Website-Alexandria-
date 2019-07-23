@@ -91,7 +91,7 @@
   "skills": {
     "catalog": [
       {
-        "id": "HTML5",
+        "id": "HTML",
         "title": "HTML5",
         "icon": "fab fa-html5",
         "description": "Like many other programmers, HTML was one of the first technologies I was exposed to. I find it as a phenomenal entry point for learning computer science, as it's a straightforward, visual representation of the power of computers - and serves as the underlying foundation for the internet.",
@@ -101,7 +101,7 @@
         "level": "Proficient"
       },
       {
-        "id": "CSS3",
+        "id": "CSS",
         "title": "CSS3",
         "icon": "fab fa-css3-alt",
         "description": "Cascading Style Sheets (CSS) is inseperably linked to HTML. It provides the basis for styling on the web.",
@@ -109,54 +109,239 @@
         "subheading": "The style of the web",
         "progress": "70",
         "level": "Proficient"
+      },
+      {
+        "id": "JS",
+        "title": "JavaScript ES6+",
+        "icon": "fab fa-js-square",
+        "description": "JavaScript is the action of the web.",
+        "subheading": "The Action of the Web",
+        "progress": "80",
+        "level": "Proficient"
+      },
+      {
+        "id": "Vue",
+        "title": "Vue",
+        "icon": "fab fa-vuejs",
+        "description": "Vue is a front-end framework for managing application state.",
+        "subheading": "Micro-management",
+        "progress": "50",
+        "level": "Comfortable"
+      },
+      {
+        "id": "Angular",
+        "title": "Angular",
+        "icon": "fab fa-angular",
+        "description": "Angular is a front-end framework for managing application state.",
+        "subheading": "Grow scale, not complexity",
+        "progress": "50",
+        "level": "Comfortable"
+      },
+      {
+        "id": "React",
+        "title": "React",
+        "icon": "fab fa-react",
+        "description": "React is a front-end framework for managing application state.",
+        "subheading": "React to change",
+        "progress": "30",
+        "level": "Familiar"
+      },
+      {
+        "id": "Sass",
+        "title": "Sass",
+        "icon": "fab fa-sass",
+        "description": "Sass is a CSS prepreprocessor that makes managing application styling.",
+        "subheading": "Style that scales",
+        "progress": "50",
+        "level": "Familiar"
+      },
+      {
+        "id": "Bootstrap",
+        "title": "Bootstrap 4",
+        "icon": "fab fa-bootstrap",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Mongo",
+        "title": "MongoDB",
+        "icon": "devicon-mongodb-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Oracle",
+        "title": "Oracle DB",
+        "icon": "devicon-oracle-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Postgres",
+        "title": "PostgreSQL",
+        "icon": "devicon-postgresql-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Docker",
+        "title": "Docker",
+        "icon": "fab fa-docker",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Express",
+        "title": "Express",
+        "icon": "devicon-express-original",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Meteor",
+        "title": "Meteor",
+        "icon": "devicon-meteor-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "NodeJS",
+        "title": "NodeJS",
+        "icon": "fab fa-node-js",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Java",
+        "title": "Java",
+        "icon": "fab fa-java",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Python",
+        "title": "Python",
+        "icon": "fab fa-python",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Typescript",
+        "title": "Typescript",
+        "icon": "devicon-typescript-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "R",
+        "title": "R",
+        "icon": "fab fa-r-project",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "C++",
+        "title": "C++",
+        "icon": "devicon-cplusplus-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "C",
+        "title": "C",
+        "icon": "devicon-c-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Git",
+        "title": "Git",
+        "icon": "fab fa-git-alt",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Slack",
+        "title": "Slack",
+        "icon": "fab fa-slack",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "Trello",
+        "title": "Trello",
+        "icon": "devicon-trello-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "StackOverflow",
+        "title": "Stack Overflow",
+        "icon": "fab fa-stack-overflow",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
+      },
+      {
+        "id": "VisualStudio",
+        "title": "Visual Studio",
+        "icon": "devicon-visualstudio-plain",
+        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "subheading": "Pick yourself up",
+        "progress": "40",
+        "level": "Familiar"
       }
     ],
-    "list" : [
-      {
+    "skillsets": [{
         "title": "Front-end Web Development",
-        "list": [
-          { "title": "HTML5", "icon": "fab fa-html5" },
-          { "title": "CSS3", "icon": "fab fa-css3-alt" },
-          { "title": "JavaScript ES6+", "icon": "fab fa-js-square" },
-          { "title": "Vue", "icon": "fab fa-vuejs" },
-          { "title": "Angular", "icon": "fab fa-angular" },
-          { "title": "React", "icon": "fab fa-react" },
-          { "title": "Sass", "icon": "fab fa-sass" },
-          { "title": "Bootstrap 4", "icon": "fab fa-bootstrap" }
-        ]
+        "skills": ["HTML", "CSS", "JS", "Vue", "Angular", "React", "Sass", "Bootstrap"]
       },
       {
         "title": "Back-end Development",
-        "list": [
-          { "title": "MongoDB", "icon": "devicon-mongodb-plain" },
-          { "title": "Oracle DB", "icon": "devicon-oracle-plain"},
-          { "title": "PostgreSQL", "icon": "devicon-postgresql-plain"},
-          { "title": "Docker", "icon": "fab fa-docker" },
-          { "title": "Express", "icon": "devicon-express-original" },
-          { "title": "Meteor", "icon": "devicon-meteor-plain"}
-        ]
+        "skills": ["Mongo", "Oracle", "Postgres", "Docker", "Express", "Meteor"]
       },
       {
         "title": "Programming Languages",
-        "list": [
-          { "title": "NodeJS", "icon": "fab fa-node-js" },
-          { "title": "Java", "icon": "fab fa-java" },
-          { "title": "Python", "icon": "fab fa-python" },
-          { "title": "Typescript", "icon": "devicon-typescript-plain" },
-          { "title": "R", "icon": "fab fa-r-project" },
-          { "title": "C++", "icon": "devicon-cplusplus-plain" },
-          { "title": "C", "icon": "devicon-c-plain" }
-        ]
+        "skills": ["NodeJS", "Java", "Python", "Typescript", "R", "C++", "C"]
       },
       {
         "title": "Productivity Tools",
-        "list": [
-          { "title": "Git", "icon": "fab fa-git-alt" },
-          { "title": "Slack", "icon": "fab fa-slack" },
-          { "title": "Trello", "icon": "devicon-trello-plain" },
-          { "title": "Stack Overflow", "icon": "fab fa-stack-overflow" },
-          { "title": "Visual Studio", "icon": "devicon-visualstudio-plain" }
-        ]
+        "skills": ["Git", "Slack", "Trello", "StackOverflow", "VisualStudio"]
       }
     ]
   }
