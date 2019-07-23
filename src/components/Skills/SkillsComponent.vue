@@ -4,7 +4,7 @@
       <h2 class="mb-2">Skills</h2>
 
       <div v-for="(skillset, index) in SkillList" v-bind:key="'Skill' + index">
-        <SkillsSkillset :skillset="skillset" :index="index" />
+        <SkillsSkillset :skillset="skillset" :activeIndex="activeIndex" @toggleActivated="setActiveIndex" />
       </div>
 
       <div class="subheading mb-3">Workflow</div>
@@ -68,6 +68,12 @@ export default {
         });
         return {...skillset};
       });
+    }
+  },
+  methods: {
+    setActiveIndex (index) {
+      console.log(index);
+      this.activeIndex = index;
     }
   }
 }

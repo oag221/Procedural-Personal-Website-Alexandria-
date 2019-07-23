@@ -2,7 +2,7 @@
   <div>
     <div class="subheading">{{skillset.title}}</div>
     <ul class="list-inline dev-icons">
-      <li v-for="(skill, idx) in skillset.skills" class="list-inline-item" v-bind:key="skillset.title + 'Skill' + idx">
+      <li v-on:click="toggleActivated(skill.index)" v-bind:class="{active: activeIndex === skill.index}" v-for="(skill, idx) in skillset.skills" class="list-inline-item" v-bind:key="skillset.title + 'Skill' + idx">
         <i v-bind:class="skill.icon" class="icon" data-toggle="tooltip" data-placement="bottom" v-bind:title="skill.title"></i>
       </li>
     </ul>
@@ -14,7 +14,12 @@ export default {
   name: "SkillsSkillset",
   props: {
     skillset: Object,
-    index: Number
+    activeIndex: Number
+  },
+  methods: {
+    toggleActivated (index: number) {
+      this.$emit('toggleActivated', index)
+    }
   }
 };
 </script>
@@ -22,5 +27,16 @@ export default {
 <style scoped lang="scss">
 .icon {
   cursor: pointer;
+  padding: .5rem;
+}
+
+ul li.active, ul li.active:hover {
+  background-color: #2196F3;
+  transition: 0.3s ease-out;
+  border-radius: .4rem;
+}
+
+ul li.active > i, ul li.active > i:hover {
+  color: #F44336;
 }
 </style>
