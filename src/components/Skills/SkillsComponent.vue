@@ -3,7 +3,7 @@
     <div class="w-50">
       <h2 class="mb-2">Skills</h2>
 
-      <div v-for="(skillset, index) in Skills.list" v-bind:key="'Skill' + index">
+      <div v-for="(skillset, index) in SkillList" v-bind:key="'Skill' + index">
         <SkillsSkillset :skillset="skillset" :index="index" />
       </div>
 
@@ -33,7 +33,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import SkillsSkillset from './SkillsSkillset.vue';
 import SkillsCard from './SkillsCard.vue';
 
@@ -46,9 +46,28 @@ export default {
     SkillsSkillset,
     SkillsCard
   },
-  data: () => {
+  data () {
     return {
       activeIndex: 1
+    }
+  },
+  computed: {
+    SkillList () {
+      return this.Skills.skillsets.map(skillset => {
+        skillset.skills = skillset.skills.map(skillId => {
+          let index;
+          let skillObj = this.Skills.catalog.filter((item, idx) => {
+            if (item.id === skillId) {
+              index = idx;
+              return true;
+            }
+            return false;
+          })[0];
+          skillObj.index = index;
+          return skillObj;
+        });
+        return {...skillset};
+      });
     }
   }
 }
