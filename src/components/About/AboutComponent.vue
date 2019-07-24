@@ -2,6 +2,13 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0 name">
+        <span class="d-lg-none d-block image-name">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2 profile-pic"
+            src="../../assets/img/profile.jpg"
+            alt="profile pic"
+          />
+        </span>
         {{About.firstName}}
         <span class="text-primary">{{About.lastName}}</span>
       </h1>
@@ -66,6 +73,16 @@ export default {
 <style scoped lang="scss">
 section.resume-section {
   min-height: 80vh;
+}
+
+img.img-fluid.img-profile.rounded-circle.profile-pic {
+  width: 10rem;
+  justify-self: center;
+}
+
+.image-name {
+  display: flex;
+  justify-content: start;
 }
 
 </style>
