@@ -1,7 +1,7 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
-      <h1 class="mb-0">
+      <h1 class="mb-0 name">
         {{About.firstName}}
         <span class="text-primary">{{About.lastName}}</span>
       </h1>

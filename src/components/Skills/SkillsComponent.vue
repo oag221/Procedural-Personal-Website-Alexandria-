@@ -7,6 +7,9 @@
         <SkillsSkillset :skillset="skillset" :activeIndex="activeIndex" @toggleActivated="setActiveIndex" />
       </div>
 
+    </div>
+    <div class="w-50">
+      <SkillsCard :skill="Skills.catalog[activeIndex]"/>
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
@@ -26,9 +29,6 @@
           Agile Development &amp; Scrum
         </li>
       </ul>
-    </div>
-    <div class="w-50">
-      <SkillsCard :skill="Skills.catalog[activeIndex]"/>
     </div>
   </section>
 </template>

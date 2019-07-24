@@ -18,47 +18,62 @@
     },
     "bio": "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me."
   },
-  "education": [{
-      "name": "Lehigh University",
-      "degree": "Master of Science",
-      "major": ["Computer Science"],
-      "startDate": "January 2021",
-      "endDate": "May 2021",
-      "description": [{
-        "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
-      }]
-    },
+  "education": [
     {
       "name": "Lehigh University",
-      "degree": "Bachelor of Science",
-      "major": ["Computer Science & Business"],
-      "minor": ["Data Science", "Entrepreneurship"],
-      "certificate": ["Global Citizenship"],
+      "degrees": [
+        { 
+          "degree": "Master of Science", 
+          "expected": "May 2021",
+          "major": [ "Computer Science" ],
+          "description": [
+            {
+              "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor of Science",
+          "expected": "January 2021",
+          "major": ["Computer Science & Business"],
+          "minor": ["Data Science", "Entrepreneurship"],
+          "certificate": ["Global Citizenship"],
+          "description": [
+            {
+              "text": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred."
+            }
+          ],
+          "gpa": {
+            "cumulative": "3.97",
+            "major": "4.00",
+            "scale": "4.00"
+          }
+        }
+      ],
       "startDate": "August 2017",
-      "endDate": "January 2021",
-      "description": [{
-        "text": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred."
-      }],
-      "gpa": {
-        "cumulative": "3.97",
-        "major": "4.00",
-        "scale": "4.00"
-      }
+      "endDate": "May 2021"
     },
     {
       "name": "High Technology High School",
+      "degrees": [
+        {
+          "description": [
+            {
+            "text": "High Technology High School is a pre-engineering career academy that emphasizes the interconnections among mathematics, science, technology and the humanities, prepares students to become proactive and creative problem solvers, effective communicators, and tomorrow's leaders through a rigorous, specialized curriculum and collaborative partnerships."
+            }
+          ],
+          "gpa": {
+            "cumulative": "98.21",
+            "scale": "100.00 (Unweighted)"
+          }
+        }
+      ],
       "startDate": "September 2013",
-      "endDate": "June 2017",
-      "description": [{
-        "text": "High Technology High School is a pre-engineering career academy that emphasizes the interconnections among mathematics, science, technology and the humanities, prepares students to become proactive and creative problem solvers, effective communicators, and tomorrow's leaders through a rigorous, specialized curriculum and collaborative partnerships."
-      }],
-      "gpa": {
-        "cumulative": "98.21",
-        "scale": "100.00 (Unweighted)"
-      }
+      "endDate": "June 2017"
     }
   ],
-  "experience": [{
+  "experience": [
+    {
       "role": "Software Development Intern",
       "company": "OSIsoft, LLC.",
       "startDate": "June 2019",
@@ -74,9 +89,11 @@
       "company": "PwC Czech Republic",
       "startDate": "May 2019",
       "endDate": "June 2019",
-      "description": [{
-        "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
-      }]
+      "description": [
+        {
+          "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+        }
+      ]
     },
     {
       "role": "Engineering Intern",
@@ -97,7 +114,7 @@
         "description": "Like many other programmers, HTML was one of the first technologies I was exposed to. I find it as a phenomenal entry point for learning computer science, as it's a straightforward, visual representation of the power of computers - and serves as the underlying foundation for the internet.",
         "link": "https://getbootstrap.com",
         "subheading": "The structure of the web",
-        "progress": "50",
+        "progress": "70",
         "level": "Proficient"
       },
       {
@@ -125,17 +142,17 @@
         "icon": "fab fa-vuejs",
         "description": "Vue is a front-end framework for managing application state.",
         "subheading": "Micro-management",
-        "progress": "50",
-        "level": "Comfortable"
+        "progress": "60",
+        "level": "Proficient"
       },
       {
         "id": "Angular",
         "title": "Angular",
         "icon": "fab fa-angular",
         "description": "Angular is a front-end framework for managing application state.",
-        "subheading": "Grow scale, not complexity",
-        "progress": "50",
-        "level": "Comfortable"
+        "subheading": "Grow in scale, not complexity",
+        "progress": "60",
+        "level": "Proficient"
       },
       {
         "id": "React",
@@ -168,9 +185,9 @@
         "id": "Mongo",
         "title": "MongoDB",
         "icon": "devicon-mongodb-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
+        "description": "MongoDB is a non-relational database system.",
+        "subheading": "Don't Let Structure Hold You Back",
+        "progress": "50",
         "level": "Familiar"
       },
       {
@@ -178,7 +195,7 @@
         "title": "Oracle DB",
         "icon": "devicon-oracle-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Enterprise SQL",
         "progress": "40",
         "level": "Familiar"
       },
@@ -187,7 +204,7 @@
         "title": "PostgreSQL",
         "icon": "devicon-postgresql-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Relational Data",
         "progress": "40",
         "level": "Familiar"
       },
@@ -196,7 +213,7 @@
         "title": "Docker",
         "icon": "fab fa-docker",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Containerize & ship",
         "progress": "40",
         "level": "Familiar"
       },
@@ -205,7 +222,7 @@
         "title": "Express",
         "icon": "devicon-express-original",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "spin up servers fast",
         "progress": "40",
         "level": "Familiar"
       },
@@ -214,7 +231,7 @@
         "title": "Meteor",
         "icon": "devicon-meteor-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Focus on the business logic",
         "progress": "40",
         "level": "Familiar"
       },
@@ -223,9 +240,9 @@
         "title": "NodeJS",
         "icon": "fab fa-node-js",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "fullstack in one language",
+        "progress": "80",
+        "level": "Proficient"
       },
       {
         "id": "Java",
@@ -233,17 +250,17 @@
         "icon": "fab fa-java",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
         "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "progress": "70",
+        "level": "Proficient"
       },
       {
         "id": "Python",
         "title": "Python",
         "icon": "fab fa-python",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "Simpled but powerful",
+        "progress": "60",
+        "level": "Proficient"
       },
       {
         "id": "Typescript",
@@ -251,15 +268,15 @@
         "icon": "devicon-typescript-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
         "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "progress": "60",
+        "level": "Proficient"
       },
       {
         "id": "R",
         "title": "R",
         "icon": "fab fa-r-project",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Data is Power",
         "progress": "40",
         "level": "Familiar"
       },
@@ -268,7 +285,7 @@
         "title": "C++",
         "icon": "devicon-cplusplus-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Fast, rutless, and efficient",
         "progress": "40",
         "level": "Familiar"
       },
@@ -277,7 +294,7 @@
         "title": "C",
         "icon": "devicon-c-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "subheading": "Fast, ruthless, and efficient",
         "progress": "40",
         "level": "Familiar"
       },
@@ -286,18 +303,18 @@
         "title": "Git",
         "icon": "fab fa-git-alt",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "Branch into something new",
+        "progress": "70",
+        "level": "Proficient"
       },
       {
         "id": "Slack",
         "title": "Slack",
         "icon": "fab fa-slack",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "Manage the workspace",
+        "progress": "70",
+        "level": "Proficient"
       },
       {
         "id": "Trello",
@@ -305,29 +322,30 @@
         "icon": "devicon-trello-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
         "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "progress": "90",
+        "level": "Proficient"
       },
       {
         "id": "StackOverflow",
         "title": "Stack Overflow",
         "icon": "fab fa-stack-overflow",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "The almanac of errors",
+        "progress": "90",
+        "level": "Proficient"
       },
       {
         "id": "VisualStudio",
         "title": "Visual Studio",
         "icon": "devicon-visualstudio-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "40",
-        "level": "Familiar"
+        "subheading": "Worry about development, not your environment",
+        "progress": "90",
+        "level": "Proficient"
       }
     ],
-    "skillsets": [{
+    "skillsets": [
+      {
         "title": "Front-end Web Development",
         "skills": ["HTML", "CSS", "JS", "Vue", "Angular", "React", "Sass", "Bootstrap"]
       },
