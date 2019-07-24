@@ -1,6 +1,6 @@
 <template>
   <div class="main-wrapper">
-    <AsideComponent/>
+    <AsideComponent :About="config.about" />
 
     <div class="container-fluid p-0">
       <AboutComponent v-bind:About="config.about" />

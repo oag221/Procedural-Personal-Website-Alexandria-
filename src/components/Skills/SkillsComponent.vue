@@ -1,7 +1,7 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
     <div class="w-50">
-      <h2 class="mb-2">Skills</h2>
+      <h2 class="mb-2">Technical Skills</h2>
 
       <div v-for="(skillset, index) in SkillList" v-bind:key="'Skill' + index">
         <SkillsSkillset :skillset="skillset" :activeIndex="activeIndex" @toggleActivated="setActiveIndex" />
