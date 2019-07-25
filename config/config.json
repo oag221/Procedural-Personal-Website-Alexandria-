@@ -362,5 +362,37 @@
         "skills": ["Git", "Slack", "Trello", "StackOverflow", "VisualStudio"]
       }
     ]
-  }
+  },
+  "personal": [
+    {
+      "skill": "Conviction",
+      "role": "Vice-President",
+      "organization": "Sigma Phi Delta",
+      "image": "sigmaphidelta.jpg"
+    },
+    {
+      "skill": "Responsibility",
+      "role": "Gryphon",
+      "organization": "Gryphon Society",
+      "image": "gryphon.jpg"
+    },
+    {
+      "skill": "Leadership",
+      "role": "President",
+      "organization": "Computer Science & Business Association",
+      "image": "csba.jpg"
+    },
+    {
+      "skill": "Compassion",
+      "role": "Lead TRAC Writing Fellow",
+      "organization": "TRAC Program",
+      "image": "trac.png"
+    },
+    {
+      "skill": "Perspective",
+      "role": "Global Citizen",
+      "organization": "Global Citizenship Program",
+      "image": "gcp.jpg"
+    }
+  ]
 }

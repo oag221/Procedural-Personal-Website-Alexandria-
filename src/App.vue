@@ -11,7 +11,7 @@
       <hr class="m-0" />
       <SkillsComponent v-bind:Skills="config.skills" />
       <hr class="m-0" />
-      <InterestsComponent v-bind:Interests="config.interests"/>
+      <InterestsComponent v-bind:Interests="config.personal"/>
       <hr class="m-0" />
       <AwardsComponent/>
     </div>
