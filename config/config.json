@@ -312,36 +312,28 @@
         "title": "Slack",
         "icon": "fab fa-slack",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Manage the workspace",
-        "progress": "70",
-        "level": "Proficient"
+        "subheading": "Manage the workspace"
       },
       {
         "id": "Trello",
         "title": "Trello",
         "icon": "devicon-trello-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
-        "progress": "90",
-        "level": "Proficient"
+        "subheading": "Pick yourself up"
       },
       {
         "id": "StackOverflow",
         "title": "Stack Overflow",
         "icon": "fab fa-stack-overflow",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "The almanac of errors",
-        "progress": "90",
-        "level": "Proficient"
+        "subheading": "The almanac of errors"
       },
       {
         "id": "VisualStudio",
         "title": "Visual Studio",
         "icon": "devicon-visualstudio-plain",
         "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Worry about development, not your environment",
-        "progress": "90",
-        "level": "Proficient"
+        "subheading": "Worry about development, not your environment"
       }
     ],
     "skillsets": [
@@ -374,13 +366,13 @@
       "skill": "Responsibility",
       "role": "Gryphon",
       "organization": "Gryphon Society",
-      "image": "gryphon.jpg"
+      "image": "gryphon.png"
     },
     {
       "skill": "Leadership",
       "role": "President",
       "organization": "Computer Science & Business Association",
-      "image": "csba.jpg"
+      "image": "csba.png"
     },
     {
       "skill": "Compassion",
@@ -392,7 +384,7 @@
       "skill": "Perspective",
       "role": "Global Citizen",
       "organization": "Global Citizenship Program",
-      "image": "gcp.jpg"
+      "image": "gcp.png"
     }
   ]
 }

@@ -1,7 +1,13 @@
 <template>
   <span>
     <div class="card" style="width: 18rem;" data-toggle="modal" :data-target="'#Modal' + Interest.skill">
-      <img v-bind:src="require(`../../assets/img/${Interest.image}`)" class="card-img-top img-square">
+      <div class="darken">
+        <img v-bind:src="require(`../../assets/img/${Interest.image}`)" class="card-img-top img-square">
+      </div>
+      
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+      </div>
       <div class="card-body">
         <p class="card-text">{{Interest.skill}}</p>
       </div>

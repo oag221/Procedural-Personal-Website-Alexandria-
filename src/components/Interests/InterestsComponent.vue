@@ -3,7 +3,7 @@
     <div class="w-100">
       <h2 class="mb-5">Interests</h2>
       <div class="interests-wrapper">
-        <div v-for="(interest, index) in Interests" v-bind:key="'Interests' + index">
+        <div v-for="(interest, index) in Interests" v-bind:key="'Interests' + index" class="card-wrapper">
           <InterestsCard :Interest="interest" />
         </div>
       </div>
@@ -30,8 +30,14 @@ section.resume-section {
   min-height: 50vh;
 }
 
-.interests-wrapper {
+section div div.interests-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section div div.interests-wrapper div.card-wrapper {
+  padding: 15px;
 }
 </style>
