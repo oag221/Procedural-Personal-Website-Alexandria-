@@ -2,7 +2,7 @@
   <div class="main-wrapper">
     <AsideComponent :About="config.about" />
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
       <AboutComponent v-bind:About="config.about" />
       <hr class="m-0" />
       <ExperienceComponent v-bind:ExperienceList="config.experience" />
@@ -11,9 +11,9 @@
       <hr class="m-0" />
       <SkillsComponent v-bind:Skills="config.skills" />
       <hr class="m-0" />
-      <InterestsComponent v-bind:Interests="config.personal"/>
+      <InterestsComponent v-bind:Interests="config.personal" />
       <hr class="m-0" />
-      <AwardsComponent/>
+      <AwardsComponent v-bind:Awards="config.awards" />
     </div>
   </div>
 </template>
@@ -21,13 +21,13 @@
 <script lang="ts">
 import config from '../config/config.json'
 
-import AsideComponent from './components/Aside/AsideComponent.vue'
-import AboutComponent from './components/About/AboutComponent.vue'
-import ExperienceComponent from './components/Experience/ExperienceComponent.vue'
-import EducationComponent from './components/Education/EducationComponent.vue'
-import SkillsComponent from './components/Skills/SkillsComponent.vue'
-import InterestsComponent from './components/Interests/InterestsComponent.vue'
-import AwardsComponent from './components/Awards/AwardsComponent.vue'
+import AsideComponent from './components/Aside/AsideComponent.vue';
+import AboutComponent from './components/About/AboutComponent.vue';
+import ExperienceComponent from './components/Experience/ExperienceComponent.vue';
+import EducationComponent from './components/Education/EducationComponent.vue';
+import SkillsComponent from './components/Skills/SkillsComponent.vue';
+import InterestsComponent from './components/Interests/InterestsComponent.vue';
+import AwardsComponent from './components/Awards/AwardsComponent.vue';
 
 export default {
   components: {
@@ -75,4 +75,7 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  padding: 0 0 5rem 0;
+}
 </style>

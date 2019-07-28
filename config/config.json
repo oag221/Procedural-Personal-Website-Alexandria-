@@ -343,7 +343,7 @@
       },
       {
         "title": "Back-end Development",
-        "skills": ["Mongo", "Oracle", "Postgres", "Docker", "Express", "Meteor"]
+        "skills": ["Git", "Mongo", "Oracle", "Postgres", "Docker", "Express", "Meteor"]
       },
       {
         "title": "Programming Languages",
@@ -351,7 +351,7 @@
       },
       {
         "title": "Productivity Tools",
-        "skills": ["Git", "Slack", "Trello", "StackOverflow", "VisualStudio"]
+        "skills": ["Slack", "Trello", "StackOverflow", "VisualStudio"]
       }
     ]
   },
@@ -385,6 +385,56 @@
       "role": "Global Citizen",
       "organization": "Global Citizenship Program",
       "image": "gcp.png"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Piazza Tech Tour Finalist",
+      "date": "August 2019",
+      "bullets": [
+        "Selected as one of 10 Finalists for the Piazza Summer 2019 Tech Tour",
+        "Piazza is an online educational technology platform that is utilized by 50,000 professors in 2,000 schools in more than 90 different countries"
+      ]
+    },
+    {
+      "title": "Lehigh CSB PwC Scholar",
+      "date": "May 2019",
+      "bullets": [
+        "Awarded as one of two students to receive a scholarship towards study abroad educational expenses",
+        "Worked for PwC Czech Republic in Prague, Czechia, researching and developing a proof-of-concept Microsoft Excel blockchain plug-in"
+      ]
+    },
+    {
+      "title": "Tau Beta Pi Initiate",
+      "date": "April 2019",
+      "bullets": [
+        "Initiated as part of Lehigh University's Spring 2019 initiate class",
+        "Tau Beta Pi is the oldest engineering honor society in the United States"
+      ]
+    },
+    {
+      "title": "Rossin Junior Fellow",
+      "date": "April 2019",
+      "bullets": [
+        "Selected as one of two students by the Department of Computer Science & Engineering to represent the Class of 2021 in the RJF Honor Society",
+        "I help represent the P.C. Rossin College of Engineering & Applied Sciences to prospective students throough admissions events and admitted student days"
+      ]
+    },
+    {
+      "title": "Winner, Blockchain Design Prompt, Lehigh Valley Hacks",
+      "date": "April 2018",
+      "bullets": [
+        "Prototyped an easy-to-use, fully functional virtual wallet device that allows transfer between ERC20 cryptocurrencies",
+        "Designed the User Interface to balance usability with data privacy via anonymous, but recognizable, user icons"
+      ]
+    },
+    {
+      "title": "First Place, Wharton Undergraduate FinTech Hackathon",
+      "date": "February 2018",
+      "bullets": [
+        "Prototyped a money-management solution aimed at consumers for easy-to-use peer-to-peer lending",
+        "Designed the User Interface to allow users for easy access to both peer users and their consumer bank"
+      ]
     }
   ]
 }
