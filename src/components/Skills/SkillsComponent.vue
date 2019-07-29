@@ -102,4 +102,8 @@ section.resume-section {
 .skill-container {
   align-self: flex-start;
 }
+
+.skill-groups {
+  align-self: flex-start;
+}
 </style>

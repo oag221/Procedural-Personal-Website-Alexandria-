@@ -7,7 +7,7 @@
           <span class="text-primary">{{education.startDate}} - {{education.endDate}}</span>
         </span>
       </div>
-        <EducationDegree v-if="education.degrees" :Degrees="education.degrees" />
+      <EducationDegree v-if="education.degrees" :Degrees="education.degrees" />
     </div>
   </div>
 </template>

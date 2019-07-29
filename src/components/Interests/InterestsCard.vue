@@ -2,14 +2,13 @@
   <span>
     <div class="card" style="width: 18rem;" data-toggle="modal" :data-target="'#Modal' + Interest.skill">
       <div class="darken">
+        <div class="darken-overlay">
+          <div class="card-img-overlay">
+            <h4 class="card-title">{{Interest.skill}}</h4>
+            <h5 class="card-title">{{Interest.role}}, {{Interest.organization}}</h5>
+          </div>
+        </div>
         <img v-bind:src="require(`../../assets/img/${Interest.image}`)" class="card-img-top img-square">
-      </div>
-      
-      <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-      </div>
-      <div class="card-body">
-        <p class="card-text">{{Interest.skill}}</p>
       </div>
     </div>
     <!-- Modal -->
@@ -54,6 +53,7 @@ section.resume-section {
 
 .card {
   cursor: pointer;
+  border: 0;
 }
 
 .modal-content .modal-header {
@@ -67,5 +67,29 @@ section.resume-section {
 
 .modal-content .modal-header div h4 {
   display: inline-block;
+}
+
+.card-title {
+  color: #f5f5f5;
+  opacity: 1;
+}
+
+.card-title:hover {
+  color: #ffffff;
+}
+
+div.darken {
+  background-color: black;
+  border-radius: .5rem;
+}
+
+div.darken img {
+  opacity: .35;
+  transition: 0.1s ease-in;
+  border-radius: .5rem;
+}
+
+div.darken img:hover {
+  opacity: .45;
 }
 </style>

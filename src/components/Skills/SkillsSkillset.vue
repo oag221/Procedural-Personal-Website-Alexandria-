@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="subheading">{{skillset.title}}</div>
-    <ul class="list-inline dev-icons">
+    <ul class="list-inline">
       <li v-on:click="toggleActivated(skill.index)" v-bind:class="{active: activeIndex === skill.index}" v-for="(skill, idx) in skillset.skills" class="list-inline-item" v-bind:key="skillset.title + 'Skill' + idx">
         <i v-bind:class="skill.icon" class="icon" data-toggle="tooltip" data-placement="bottom" v-bind:title="skill.title"></i>
       </li>
@@ -28,6 +28,10 @@ export default {
 .icon {
   cursor: pointer;
   padding: .5rem;
+}
+
+ul li {
+  font-size: 2rem;
 }
 
 ul li.active, ul li.active:hover {
