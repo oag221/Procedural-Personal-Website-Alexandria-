@@ -1,11 +1,11 @@
 <template>
   <span>
-    <div class="card" style="width: 18rem;" data-toggle="modal" :data-target="'#Modal' + Interest.skill">
+    <div class="card" style="width: 15rem;" data-toggle="modal" :data-target="'#Modal' + Interest.skill">
       <div class="darken">
         <div class="darken-overlay">
           <div class="card-img-overlay">
-            <h4 class="card-title">{{Interest.skill}}</h4>
-            <h5 class="card-title">{{Interest.role}}, {{Interest.organization}}</h5>
+            <h5 class="card-title card-skill">{{Interest.skill}}</h5>
+            <h6 class="card-title">{{Interest.role}}, {{Interest.organization}}</h6>
           </div>
         </div>
         <img v-bind:src="require(`../../assets/img/${Interest.image}`)" class="card-img-top img-square">
@@ -72,6 +72,7 @@ section.resume-section {
 .card-title {
   color: #f5f5f5;
   opacity: 1;
+  margin-bottom: .25rem;
 }
 
 .card-title:hover {

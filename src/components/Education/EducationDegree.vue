@@ -1,5 +1,5 @@
 <template>
-  <div class="degree-container pl-2">
+  <div class="degree-container">
     <div v-for="(degree, index) in Degrees" v-bind:key="index">
       <div v-if="degree.degree" class="degree-header mb-1 mt-2">
         <span class="degree subheading">{{degree.degree}}</span>

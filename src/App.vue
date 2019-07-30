@@ -13,6 +13,8 @@
       <hr class="m-0" />
       <InterestsComponent v-bind:Interests="config.personal" />
       <hr class="m-0" />
+      <ProjectComponent v-bind:Projects="config.projects" />
+      <hr class="m-0" />
       <AwardsComponent v-bind:Awards="config.awards" />
     </div>
   </div>
@@ -27,6 +29,7 @@ import ExperienceComponent from './components/Experience/ExperienceComponent.vue
 import EducationComponent from './components/Education/EducationComponent.vue';
 import SkillsComponent from './components/Skills/SkillsComponent.vue';
 import InterestsComponent from './components/Interests/InterestsComponent.vue';
+import ProjectComponent from './components/Project/ProjectComponent.vue';
 import AwardsComponent from './components/Awards/AwardsComponent.vue';
 
 export default {
@@ -37,6 +40,7 @@ export default {
     EducationComponent,
     SkillsComponent,
     InterestsComponent,
+    ProjectComponent,
     AwardsComponent
   },
   data() {

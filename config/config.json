@@ -387,6 +387,15 @@
       "image": "gcp.png"
     }
   ],
+  "projects": [
+    {
+      "title": "Preff",
+      "image": "preff.jpg",
+      "icon": "fab fa-node-js",
+      "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+      "subheading": "Meeting up over a meal"
+    }
+  ],
   "awards": [
     {
       "title": "Piazza Tech Tour Finalist",

@@ -1,7 +1,7 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
     <div class="w-100">
-      <h2 class="mb-5">Awards</h2>
+      <h2 class="mb-2">Awards</h2>
       <ul class="fa-ul mb-0" v-for="(award, index) in Awards" v-bind:key="'Awards' + index">
         <AwardsContent :Award="award" />
       </ul>

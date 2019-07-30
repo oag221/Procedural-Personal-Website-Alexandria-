@@ -1,7 +1,7 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
     <div class="w-100">
-      <h2 class="mb-5">Skills</h2>
+      <h2 class="mb-2">Skills</h2>
       <div class="interests-wrapper">
         <div v-for="(interest, index) in Interests" v-bind:key="'Interests' + index" class="card-wrapper">
           <InterestsCard :Interest="interest" />

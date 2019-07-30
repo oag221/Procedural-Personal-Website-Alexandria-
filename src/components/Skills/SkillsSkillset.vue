@@ -41,6 +41,6 @@ ul li.active, ul li.active:hover {
 }
 
 ul li.active > i, ul li.active > i:hover {
-  color: #F44336;
+  color: #FFFFFF;
 }
 </style>
