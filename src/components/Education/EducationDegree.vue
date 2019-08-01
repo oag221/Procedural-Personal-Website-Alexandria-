@@ -1,22 +1,28 @@
 <template>
   <div class="degree-container">
-    <div v-for="(degree, index) in Degrees" v-bind:key="index">
+    <div v-for="(degree, index) in Degrees" v-bind:key="index" class="degree-divider">
       <div v-if="degree.degree" class="degree-header mb-1 mt-2">
-        <span class="degree subheading">{{degree.degree}}</span>
+        <span class="degree subheading">
+          <span class="bubble-minor" v-bind:class="{ complete: degree.status === 'complete', current: degree.status === 'current' }"></span>
+          <div>{{degree.degree}}</div>
+        </span>
         <span class="expected-date">Expected: {{degree.expected}}</span>
       </div>
 
-      <div class="detail-attributes mb-2">
-        <EducationMajor v-if="degree.major" :Major="degree.major"/>
-        <EducationGPA v-if="degree.gpa" :GPA="degree.gpa"/>
-        <EducationMinor v-if="degree.minor" :Minor="degree.minor"/>
-        <EducationCertificate v-if="degree.certificate" :Certificate="degree.certificate"/>
-        <div
-          class="mt-4"
-          v-for="(descParagraphh, degreeIdx) in degree.description"
-          v-bind:key="'EducationList' + index + 'Description' + degreeIdx"
-        >{{descParagraphh.text}}</div>
+      <div class="degree-body">
+        <div class="detail-attributes mb-2">
+          <EducationMajor v-if="degree.major" :Major="degree.major"/>
+          <EducationGPA v-if="degree.gpa" :GPA="degree.gpa"/>
+          <EducationMinor v-if="degree.minor" :Minor="degree.minor"/>
+          <EducationCertificate v-if="degree.certificate" :Certificate="degree.certificate"/>
+          <div
+            class="mt-4"
+            v-for="(descParagraphh, degreeIdx) in degree.description"
+            v-bind:key="'EducationList' + index + 'Description' + degreeIdx"
+          >{{descParagraphh.text}}</div>
+        </div>
       </div>
+
       <hr v-if="index !== Degrees.length - 1" class="m-0" />
     </div>
   </div>
@@ -52,9 +58,47 @@ export default {
 .degree-header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .expected-date {
-  justify-self: flex-end;
+  align-self: center;
+}
+
+.bubble-minor {
+  content: '';
+  background-color: white;
+  border: 2px solid #2196F3;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding-left: 0px;
+  left: -33px;
+  margin-top: 9px;
+  position: relative;
+  display: inline-block;
+  align-self: start;
+}
+
+.complete {
+  background-color: #2196F3;
+}
+
+.current {
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  from { background-color: white; }
+  to { background-color: #2196F3; }
+}
+
+.degree.subheading {
+  display: flex;
+}
+
+.degree.subheading div {
+  position: relative;
+  left: -16px;
 }
 </style>

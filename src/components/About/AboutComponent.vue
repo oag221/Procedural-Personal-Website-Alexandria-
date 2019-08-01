@@ -2,7 +2,7 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0 name">
-        <span class="d-lg-none d-block image-name">
+        <span class="d-lg-none image-name">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2 profile-pic"
             src="../../assets/img/profile.jpg"

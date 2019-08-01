@@ -35,6 +35,7 @@
         {
           "degree": "Bachelor of Science",
           "expected": "January 2021",
+          "status": "current",
           "major": ["Computer Science & Business"],
           "minor": ["Data Science", "Entrepreneurship"],
           "certificate": ["Global Citizenship"],
@@ -51,7 +52,8 @@
         }
       ],
       "startDate": "August 2017",
-      "endDate": "May 2021"
+      "endDate": "May 2021",
+      "status": "current"
     },
     {
       "name": "High Technology High School",
@@ -69,13 +71,15 @@
         }
       ],
       "startDate": "September 2013",
-      "endDate": "June 2017"
+      "endDate": "June 2017",
+      "status": "complete"
     }
   ],
   "experience": [
     {
       "role": "Software Development Intern",
       "company": "OSIsoft, LLC.",
+      "status": "current",
       "startDate": "June 2019",
       "endDate": "August 2019",
       "bullets": [
@@ -87,6 +91,7 @@
     {
       "role": "Blockchain Research Intern",
       "company": "PwC Czech Republic",
+      "status": "complete",
       "startDate": "May 2019",
       "endDate": "June 2019",
       "bullets": [
@@ -97,6 +102,7 @@
     {
       "role": "Engineering Intern",
       "company": "Commvault",
+      "status": "complete",
       "startDate": "September 2016",
       "endDate": "January 2017",
       "bullets": [

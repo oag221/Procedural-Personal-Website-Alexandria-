@@ -1,7 +1,7 @@
 <template>
   <li class="main">
     <i class="fa-li fa fa-trophy"></i>
-    <div class="header">
+    <div class="header mb-2">
       <span><h3>{{Award.title}}</h3></span>
       <span class="text-primary award-date">{{Award.date}}</span>
     </div>
@@ -26,6 +26,11 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header h3 {
+  margin-bottom: 0;
 }
 
 span.award-date {

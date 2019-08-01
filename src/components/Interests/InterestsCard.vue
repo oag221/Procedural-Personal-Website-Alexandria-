@@ -73,6 +73,7 @@ section.resume-section {
   color: #f5f5f5;
   opacity: 1;
   margin-bottom: .25rem;
+  z-index: 1;
 }
 
 .card-title:hover {
