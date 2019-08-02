@@ -1,7 +1,7 @@
 <template>
-  <span>
-    <span v-if="GPA.cumulative">Cumulative GPA: {{GPA.cumulative}} / {{GPA.scale}}</span>
-    <span class="ml-5" v-if="GPA.major">Major GPA: {{GPA.major}} / {{GPA.scale}}</span>
+  <span class="gpa">
+    <span class="mr-5" v-if="GPA.cumulative">Cumulative GPA: {{GPA.cumulative}} / {{GPA.scale}}</span>
+    <span v-if="GPA.major">Major GPA: {{GPA.major}} / {{GPA.scale}}</span>
   </span>
 </template>
 
@@ -15,4 +15,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.gpa {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>

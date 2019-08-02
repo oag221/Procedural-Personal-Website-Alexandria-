@@ -74,7 +74,7 @@ export default {
   width: 16px;
   padding-left: 0px;
   left: -33px;
-  margin-top: 9px;
+  margin-top: 10px;
   position: relative;
   display: inline-block;
   align-self: start;

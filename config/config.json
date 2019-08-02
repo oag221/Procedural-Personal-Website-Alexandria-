@@ -34,7 +34,7 @@
         },
         {
           "degree": "Bachelor of Science",
-          "expected": "January 2021",
+          "expected": "Jan. 2021",
           "status": "current",
           "major": ["Computer Science & Business"],
           "minor": ["Data Science", "Entrepreneurship"],
@@ -51,7 +51,7 @@
           }
         }
       ],
-      "startDate": "August 2017",
+      "startDate": "Aug. 2017",
       "endDate": "May 2021",
       "status": "current"
     },
@@ -70,7 +70,7 @@
           }
         }
       ],
-      "startDate": "September 2013",
+      "startDate": "Sept. 2013",
       "endDate": "June 2017",
       "status": "complete"
     }
@@ -81,7 +81,7 @@
       "company": "OSIsoft, LLC.",
       "status": "current",
       "startDate": "June 2019",
-      "endDate": "August 2019",
+      "endDate": "Aug. 2019",
       "bullets": [
         "Developed in Angular 7 on the next generation of the PI Visualization software, working on UI, data processing, and testing areas",
         "Worked in an Agile - Scrum environment, including running stand-ups for a team of 9 and presenting at project-wide sprint review meetings",
@@ -103,8 +103,8 @@
       "role": "Engineering Intern",
       "company": "Commvault",
       "status": "complete",
-      "startDate": "September 2016",
-      "endDate": "January 2017",
+      "startDate": "Sept. 2016",
+      "endDate": "Jan. 2017",
       "bullets": [
         "Developed localization script for global logistical reporting using Python’s XML ElementTree",
         "Detected and analyzed coding bugs and algorithmic efficiency in pre-existing programs"
@@ -399,13 +399,14 @@
       "image": "preff.jpg",
       "icon": "fab fa-node-js",
       "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-      "subheading": "Meeting up over a meal"
+      "subheading": "Meeting up over a meal",
+      "color": "#8B0B0B"
     }
   ],
   "awards": [
     {
       "title": "Piazza Tech Tour Finalist",
-      "date": "August 2019",
+      "date": "Aug. 2019",
       "bullets": [
         "Selected as one of 10 Finalists for the Piazza Summer 2019 Tech Tour",
         "Piazza is an online educational technology platform that is utilized by 50,000 professors in 2,000 schools in more than 90 different countries"
@@ -445,7 +446,7 @@
     },
     {
       "title": "First Place, Wharton Undergraduate FinTech Hackathon",
-      "date": "February 2018",
+      "date": "Feb. 2018",
       "bullets": [
         "Prototyped a money-management solution aimed at consumers for easy-to-use peer-to-peer lending",
         "Designed the User Interface to allow users for easy access to both peer users and their consumer bank"

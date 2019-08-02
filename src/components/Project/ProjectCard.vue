@@ -5,9 +5,9 @@
         <img v-bind:src="require(`../../assets/img/${project.image}`)" class="card-img-top img-square">
       </div>
       <div class="card-body">
-        <h3 class="card-title">{{project.title}}</h3>
+        <h3 class="card-title mb-0">{{project.title}}</h3>
         <div class="subheading">{{project.subheading}}</div>
-        <a target="_blank" href="https://www.preff.menu" class="btn btn-primary">Go somewhere</a>
+        <a target="_blank" href="https://www.preff.menu" class="btn btn-primary btn-project" v-bind:style="{ backgroundColor: project.color }">Check it out</a>
       </div>
     </div>
     <!-- Modal -->
@@ -51,5 +51,9 @@ export default {
   max-width: 80%;
   align-self: center;
   cursor: pointer;
+}
+
+a.btn.btn-primary.btn-project {
+  border: 0;
 }
 </style>
