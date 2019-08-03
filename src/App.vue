@@ -4,6 +4,7 @@
 
     <div class="container-fluid">
       <AboutComponent v-bind:About="config.about" />
+      <CallToAction v-bind:About="config.about" />
       <hr class="m-0" />
       <ExperienceComponent v-bind:ExperienceList="config.experience" />
       <hr class="m-0" />
@@ -16,6 +17,9 @@
       <ProjectComponent v-bind:Projects="config.projects" />
       <hr class="m-0" />
       <AwardsComponent v-bind:Awards="config.awards" />
+      <hr class="m-0" />
+      <ContactComponent v-bind:About="config.about" />
+      <AttributionComponent v-bind:Attribution="config.attribution" />
     </div>
   </div>
 </template>
@@ -31,6 +35,9 @@ import SkillsComponent from './components/Skills/SkillsComponent.vue';
 import InterestsComponent from './components/Interests/InterestsComponent.vue';
 import ProjectComponent from './components/Project/ProjectComponent.vue';
 import AwardsComponent from './components/Awards/AwardsComponent.vue';
+import CallToAction from './components/Contact/CallToAction.vue';
+import ContactComponent from './components/Contact/ContactComponent.vue';
+import AttributionComponent from './components/Attribution/AttributionComponent.vue';
 
 export default {
   components: {
@@ -41,7 +48,10 @@ export default {
     SkillsComponent,
     InterestsComponent,
     ProjectComponent,
-    AwardsComponent
+    AwardsComponent,
+    CallToAction,
+    ContactComponent,
+    AttributionComponent
   },
   data() {
     return {
@@ -87,6 +97,6 @@ export default {
 
 <style scoped>
 .container-fluid {
-  padding: 0 0 5rem 0;
+  padding: 0;
 }
 </style>

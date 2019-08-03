@@ -11,7 +11,8 @@
           data-trigger="focus"
           role="button" 
           class="btn btn-primary btn-sm"
-          data-toggle="popover" :title="certificate.title" 
+          data-toggle="popover" 
+          :title="certificate.title" 
           :data-content="certificate.description">
           {{certificate.title}}
         </a>

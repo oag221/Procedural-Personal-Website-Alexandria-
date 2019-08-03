@@ -64,6 +64,8 @@ div.resume-content {
   border-radius: 50%;
   height: 20px;
   width: 20px;
+  min-height: 20px;
+  min-width: 20px;
   padding-left: 0px;
   left: -35px;
   margin-top: 14px;

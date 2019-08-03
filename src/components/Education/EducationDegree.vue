@@ -76,6 +76,8 @@ export default {
   border-radius: 50%;
   height: 16px;
   width: 16px;
+  min-height: 16px;
+  min-width: 16px;
   padding-left: 0px;
   left: -33px;
   margin-top: 16px;

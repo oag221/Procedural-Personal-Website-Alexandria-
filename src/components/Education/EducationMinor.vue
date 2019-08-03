@@ -11,7 +11,8 @@
           data-trigger="focus"
           role="button" 
           class="btn btn-primary btn-sm"
-          data-toggle="popover" :title="minor.title" 
+          data-toggle="popover" 
+          :title="minor.title" 
           :data-content="minor.description">
           {{minor.title}}
         </a>

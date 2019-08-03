@@ -1,4 +1,10 @@
 {
+  "attribution": {
+    "template": "Start Bootstrap",
+    "templatelink": "https://startbootstrap.com/themes/resume/",
+    "inspiration": "Oleg Agapov",
+    "inspirationlink": "https://olegagapov.com/"
+  },
   "about": {
     "firstName": "Will",
     "lastName": "Peracchio",
@@ -16,6 +22,11 @@
       "twitter": null,
       "facebook": null
     },
+    "options": [
+      "I wanted to reach out",
+      "I'm interested in your tech skills",
+      "Not sure how I got here..."
+    ],
     "bio": "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me."
   },
   "education": [
