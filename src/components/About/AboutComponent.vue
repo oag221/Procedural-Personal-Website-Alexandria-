@@ -24,10 +24,10 @@
       </p>
       <AboutSocialMedia :SocialMedia="About.socialmedia" v-if="About.socialmedia" />
       <div class="resume mt-4">
-        <a class="btn btn-primary btn-lg" :href="pdf" target="_blank">
+        <button class="btn btn-primary btn-lg" v-on:click="resume()">
           <i class="fas fa-file-pdf"></i>
           Resume
-        </a>
+        </button>
       </div>
     </div>
   </section>
@@ -46,9 +46,9 @@ export default {
     AboutSocialMedia,
     AboutContact
   },
-  data () {
-    return {
-      pdf: "https://www.williamperacchio.com/resume.pdf"
+  methods: {
+    resume () {
+      window.open("/" + this.About.resume);
     }
   }
 }
