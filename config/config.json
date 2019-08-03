@@ -9,6 +9,7 @@
     "firstName": "Will",
     "lastName": "Peracchio",
     "phone": "+1 (732) 713-9493",
+    "formattedPhone": "1-732-713-9493",
     "email": "waperacchio@gmail.com",
     "address": {
       "streetAddress": "2365 Apple Ridge Circle",
@@ -442,7 +443,8 @@
         "title": "Productivity Tools",
         "skills": ["Slack", "Trello", "StackOverflow", "VisualStudio"]
       }
-    ]
+    ],
+    "bullets": []
   },
   "personal": [
     {
@@ -478,6 +480,7 @@
   ],
   "projects": [
     {
+      "id": "preff",
       "title": "Preff",
       "image": "preff.jpg",
       "link": "https://www.preff.menu",
@@ -486,6 +489,7 @@
       "color": "#8B0B0B"
     },
     {
+      "id": "flowchart",
       "title": "CSB Course Flowchart",
       "image": "flowchart.png",
       "link": "https://csb-flowchart.web.app",

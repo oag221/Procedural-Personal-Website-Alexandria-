@@ -4,25 +4,6 @@
     <div class="wrapper w-100 d-lg-flex d-sm-flex align-items-center">
       <div class="skill-container pr-2">
         <SkillsCard :skill="Skills.catalog[activeIndex]"/>
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum
-          </li>
-        </ul>
       </div>
       <div class="skill-groups mn-50 pl-2">
         <div v-for="(skillset, index) in SkillList" v-bind:key="'Skill' + index">
@@ -30,12 +11,14 @@
         </div>
       </div>
     </div>
+    <SkillsBullets :Bullets="Skills.bullets" />
   </section>
 </template>
 
 <script>
 import SkillsSkillset from './SkillsSkillset.vue';
 import SkillsCard from './SkillsCard.vue';
+import SkillsBullets from './SkillsBullets.vue';
 
 export default {
   name: "SkillsComponent",
@@ -44,7 +27,8 @@ export default {
   },
   components: {
     SkillsSkillset,
-    SkillsCard
+    SkillsCard,
+    SkillsBullets
   },
   data () {
     return {

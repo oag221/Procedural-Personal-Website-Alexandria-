@@ -1,6 +1,6 @@
 <template>
   <span class="projects-wrapper">
-    <div class="card mb-5" data-toggle="modal" :data-target="'#Modal' + project.title">
+    <div class="card mb-5" data-toggle="modal" :data-target="'#Modal' + project.id">
       <div class="darken">
         <img v-bind:src="require(`../../assets/img/${project.image}`)" class="card-img-top img-square">
       </div>
@@ -11,11 +11,16 @@
       </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" :id="'Modal' + project.title" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" 
+      :id="'Modal' + project.id" 
+      tabindex="-1" role="dialog" 
+      :aria-labelledby="'ModalLabel' + project.id" 
+      aria-hidden="true"
+    >
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">{{project.title}}</h3>
+              <h3 class="modal-title" :id="'ModalLabel' + project.id">{{project.title}}</h3>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

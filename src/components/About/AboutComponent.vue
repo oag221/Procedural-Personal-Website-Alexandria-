@@ -9,13 +9,30 @@
             alt="profile pic"
           />
         </span>
-        {{About.firstName}}
-        <span class="text-primary">{{About.lastName}}</span>
+        <span class="d-sm-none small-name">
+          {{About.firstName}}
+          <span class="text-primary">{{About.lastName}}</span>
+        </span>
+        <span class="d-sm-block d-none">
+          {{About.firstName}}
+          <span class="text-primary">{{About.lastName}}</span>
+        </span>
+
       </h1>
-      <div class="subheading mb-5">
+      <div class="subheading mb-5 d-md-none">
+        <div>{{About.address.streetAddress}}</div>
+        <div>{{About.address.city}}, {{About.address.state}} {{About.address.zip}}</div> 
+        <div><a :href="'tel:' + About.formattedPhone">{{About.phone}}</a></div>
+        <div>
+          <a :href="'mailto:' + About.email" target="_blank">
+            {{About.email}}
+          </a>
+        </div>
+      </div>
+      <div class="subheading mb-5 d-none d-md-block">
         {{About.address.streetAddress}} · 
         {{About.address.city}}, {{About.address.state}} {{About.address.zip}} · 
-        {{About.phone}} ·
+        <a :href="'tel:' + About.formattedPhone">{{About.phone}}</a> ·
         <a :href="'mailto:' + About.email" target="_blank">
           {{About.email}}
         </a>
@@ -62,7 +79,7 @@ export default {
   props: {
     About: Object
   },
-  data: () => {
+  data () {
     return {
       pdf: "https://www.williamperacchio.com/resume.pdf"
     }
@@ -85,4 +102,7 @@ img.img-fluid.img-profile.rounded-circle.profile-pic {
   justify-content: start;
 }
 
+.small-name {
+  font-size: 5rem;
+}
 </style>

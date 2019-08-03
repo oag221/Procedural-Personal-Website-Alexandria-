@@ -32,6 +32,7 @@ export default {
 
 a {
   color: #f0f0f0;
+  text-decoration: underline;
 }
 
 p, a:hover {
