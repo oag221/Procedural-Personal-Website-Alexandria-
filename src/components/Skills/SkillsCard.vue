@@ -10,7 +10,7 @@
         </div>
       </div>
       <p class="card-text">{{skill.description}}</p>
-      <a v-if="skill.link" :href="skill.link" target="_blank" class="card-link btn btn-success">
+      <a v-if="skill.link" :href="skill.link" target="_blank" class="card-link btn btn-primary">
         More Info
       </a>
     </div>

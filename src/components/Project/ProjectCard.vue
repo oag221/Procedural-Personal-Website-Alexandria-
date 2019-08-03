@@ -7,7 +7,7 @@
       <div class="card-body">
         <h3 class="card-title mb-0">{{project.title}}</h3>
         <div class="subheading">{{project.subheading}}</div>
-        <a target="_blank" :href="project.link" class="btn btn-primary btn-project" v-bind:style="{ backgroundColor: project.color }">Check it out</a>
+        <a target="_blank" :href="project.link" class="btn btn-project" v-bind:style="{ backgroundColor: project.color }">Check it out</a>
       </div>
     </div>
     <!-- Modal -->
@@ -58,7 +58,8 @@ export default {
   cursor: pointer;
 }
 
-a.btn.btn-primary.btn-project {
-  border: 0;
+a.btn.btn-project {
+  border: solid 1px white;
+  color: white;
 }
 </style>

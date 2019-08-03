@@ -17,51 +17,12 @@
           {{About.firstName}}
           <span class="text-primary">{{About.lastName}}</span>
         </span>
-
       </h1>
-      <div class="subheading mb-5 d-md-none">
-        <div>{{About.address.streetAddress}}</div>
-        <div>{{About.address.city}}, {{About.address.state}} {{About.address.zip}}</div> 
-        <div><a :href="'tel:' + About.formattedPhone">{{About.phone}}</a></div>
-        <div>
-          <a :href="'mailto:' + About.email" target="_blank">
-            {{About.email}}
-          </a>
-        </div>
-      </div>
-      <div class="subheading mb-5 d-none d-md-block">
-        {{About.address.streetAddress}} · 
-        {{About.address.city}}, {{About.address.state}} {{About.address.zip}} · 
-        <a :href="'tel:' + About.formattedPhone">{{About.phone}}</a> ·
-        <a :href="'mailto:' + About.email" target="_blank">
-          {{About.email}}
-        </a>
-      </div>
+      <AboutContact :About="About" />
       <p class="lead mb-2" v-for="(paragraph, index) in About.bio" v-bind:key="'Bio' + index">
         {{paragraph}}
       </p>
-      <div class="social-icons mt-3" v-if="About.socialmedia">
-        <span v-if="About.socialmedia.linkedin">
-          <a :href="About.socialmedia.linkedin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </span>
-        <span v-if="About.socialmedia.facebook">
-          <a :href="About.socialmedia.facebook" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </span>
-        <span v-if="About.socialmedia.github">
-          <a :href="About.socialmedia.github" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github">
-            <i class="fab fa-github"></i>
-          </a>
-        </span>
-        <span v-if="About.socialmedia.twitter">
-          <a :href="About.socialmedia.twitter" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </span>
-      </div>
+      <AboutSocialMedia :SocialMedia="About.socialmedia" v-if="About.socialmedia" />
       <div class="resume mt-4">
         <a class="btn btn-primary btn-lg" :href="pdf" target="_blank">
           <i class="fas fa-file-pdf"></i>
@@ -73,11 +34,17 @@
 </template>
 
 <script lang="ts">
+import AboutSocialMedia from './AboutSocialMedia.vue';
+import AboutContact from './AboutContact.vue';
 
 export default {
   name: "AboutComponent",
   props: {
     About: Object
+  },
+  components: {
+    AboutSocialMedia,
+    AboutContact
   },
   data () {
     return {

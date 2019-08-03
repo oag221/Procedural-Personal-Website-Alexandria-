@@ -55,6 +55,7 @@ div.resume-content {
 
 .school-date {
   font-size: 1.5rem;
+  min-width: 0 !important;
 }
 
 .bubble-major {

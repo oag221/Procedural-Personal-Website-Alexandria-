@@ -54,31 +54,6 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.social-icons span a {
-  display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-  margin-right: 1rem;
-}
-
-.social-icons span {
-  margin: 0 5px;
-}
-
-.social-icons span a:last-child {
-  margin-right: 0;
-}
-
-.social-icons span a:hover {
-  background-color: #F44336;
-}
-
 .dev-icons {
   font-size: 3rem;
 }
@@ -91,10 +66,6 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-}
-
-#sideNav .navbar-toggler:focus {
-  outline-color: #F44336;
 }
 
 @media (min-width: 992px) {
@@ -179,20 +150,18 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-.bg-primary {
+.bg-primary, .btn-primary {
   background-color: #2196F3 !important;
+  border-color: #2196F3 !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  color: #2196F3 !important;
 }
 
 .text-primary {
   color: #2196F3 !important;
-}
-
-.bg-secondary {
-  background-color: #F44336 !important;
-}
-
-.text-secondary {
-  color: #F44336 !important;
 }
 
 a {

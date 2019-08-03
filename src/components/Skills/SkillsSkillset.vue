@@ -32,15 +32,25 @@ export default {
 
 ul li {
   font-size: 2rem;
-}
-
-ul li.active, ul li.active:hover {
-  background-color: #2196F3;
-  transition: 0.3s ease-out;
   border-radius: .4rem;
+  border: solid 1px transparent;
 }
 
-ul li.active > i, ul li.active > i:hover {
+ul li.active {
+  background-color: #2196F3;
+  border: solid 1px #2196F3;
+  transition: 0.15s ease-in-out;
+}
+
+ul li.active:hover {
+  background-color: #ffffff;
+}
+
+ul li.active:hover > i {
+  color: #2196F3;
+}
+
+ul li.active > i {
   color: #FFFFFF;
 }
 </style>
