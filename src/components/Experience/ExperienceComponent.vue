@@ -39,6 +39,6 @@ section.resume-section {
 
 .experience-body > div {
   position: relative;
-  top: -10px;
+  top: -14px;
 }
 </style>

@@ -37,6 +37,6 @@ section.resume-section {
 
 .education-body > div {
   position: relative;
-  top: -10px;
+  top: -14px;
 }
 </style>

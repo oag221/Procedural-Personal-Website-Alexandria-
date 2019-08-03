@@ -1,10 +1,20 @@
 <template>
-  <span>
-    <span v-if="Minor.length === 1">Minor:</span>
-    <span v-if="Minor.length > 1">Minors:</span>
-    <span v-for="(minor, minorIndex) in Minor" v-bind:key="'Minor' + minor">
-      {{minor}}<span v-if="minorIndex !== Minor.length - 1">,
-        <span v-if="minorIndex === Minor.length - 2 && Minor.length > 2">&amp;</span>
+  <span class="minor mb-2">
+    <h5 class="minor-text mb-0">
+      <span v-if="Minor.length === 1">Minor:</span>
+      <span v-if="Minor.length > 1">Minors:</span>
+    </h5>
+    <span>
+      <span v-for="(minor, index) in Minor" v-bind:key="'Minor' + index" class="mr-3 mb-3">
+        <a 
+          tabindex="0"
+          data-trigger="focus"
+          role="button" 
+          class="btn btn-primary btn-sm"
+          data-toggle="popover" :title="minor.title" 
+          :data-content="minor.description">
+          {{minor.title}}
+        </a>
       </span>
     </span>
   </span>
@@ -20,4 +30,24 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.minor {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.minor-text {
+  display: inline-block;
+  font-weight: 500;
+  width: 15%;
+  min-width: 75px;
+}
+
+a.btn {
+  cursor: pointer;
+}
+
+a.btn:focus {
+  color: white;
+}
 </style>

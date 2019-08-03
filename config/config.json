@@ -25,10 +25,10 @@
         { 
           "degree": "Master of Science", 
           "expected": "May 2021",
-          "major": [ "Computer Science" ],
-          "description": [
+          "major": [ 
             {
-              "text": "After finishing my undergraduate degree in 3.5 years, I will continue at Lehigh to complete and finish a graduate degree in Computer Science in one semester."
+              "title": "Computer Science",
+              "description": "I plan on concentrating my MS in CS in the areas of data analytics and machine learning."
             }
           ]
         },
@@ -36,19 +36,65 @@
           "degree": "Bachelor of Science",
           "expected": "Jan. 2021",
           "status": "current",
-          "major": ["Computer Science & Business"],
-          "minor": ["Data Science", "Entrepreneurship"],
-          "certificate": ["Global Citizenship"],
-          "description": [
+          "major": [
             {
-              "text": "Lehigh's program in Computer Science and Business (CSB) is a joint initiative between the College of Business and Economics and the Department of Computer Science and Engineering in the P.C. Rossin College of Engineering and Applied Science. CSB students enroll—and are assigned faculty advisors—in both colleges. Students completing this demanding program are awarded a unique joint degree from both colleges. It equips students with the high-tech and business skills they need at a time when the boundaries between the two fields are becoming increasingly blurred."
+              "title": "Computer Science & Business",
+              "description": "The Computer Science & Business program is a special program at Lehigh that is both ABET and AACSB accredited, meaning it is a full computer science and full business degree. I learn everything a computer science student learns, everything a business major learns, and how these disciplines interact in the modern world."
+            }
+          ],
+          "minor": [
+            {
+              "title": "Data Science",
+              "description": "ernwfjvwnkwjlven"
+            },
+            {
+              "title": "Entrepreneurship",
+              "description": "eriwngiwrni"
+            }
+          ],
+          "certificate": [
+            {
+              "title": "Global Citizenship",
+              "description": "GCEQF"
             }
           ],
           "gpa": {
             "cumulative": "3.97",
             "major": "4.00",
             "scale": "4.00"
-          }
+          },
+          "courses": [ 
+            {
+              "title": "Software Engineering",
+              "code": "CSE 216",
+              "description": "The software lifecycle; lifecycle models; software planning; testing; specification methods; maintenance. Emphasis on team work and large-scale software systems, including oral presentations and written reports."
+            },
+            {
+              "title": "Algorithms",
+              "code": "CSE 340",
+              "description": "Algorithms for searching, sorting, manipulating graphs and trees, finding shortest paths and minimum spanning trees, scheduling tasks, etc.: proofs of their correctness and analysis of their asymptotic runtime and memory demands. Designing algorithms: recursion, divide-and-conquer, greediness, dynamic programming. Limits on algorithm efficiency using elementary NP-completeness theory."
+            },
+            {
+              "title": "Data Structures",
+              "code": "CSE 017",
+              "description": "Algorithmic design and implementation in a high level, object oriented language, such as Java. Classes, subclasses, recursion, searching, sorting, linked lists, trees, stacks, queues."
+            },
+            {
+              "title": "Intro to Data Science",
+              "code": "CSE 160",
+              "description": "Data Science is a fast-growing interdisciplinary field, focusing on the computational analysis of data to extract knowledge and insight. Collection, preparation, analysis, modeling, and visualization of data, covering both conceptual and practical issues. Examples from diverse fields and hands-on use of statistical and data manipulation software."
+            },
+            {
+              "title": "Computer Applications in Business",
+              "code": "CSB 311",
+              "description": "hi"
+            },
+            {
+              "title": "Database Systems, Algorithms, and Applications",
+              "code": "CSE 341",
+              "description": "Design of large databases; normalization; query languages (including SQL); Transaction-processing protocols; Query optimization; performance tuning; distributed systems."
+            }
+          ]
         }
       ],
       "startDate": "Aug. 2017",

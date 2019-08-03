@@ -2,10 +2,10 @@
   <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="resume-content">
       <div class="mb-2 school-name-date">
-        <h3 class="school-name">
+        <h2 class="school-name">
           <span class="bubble-major" v-bind:class="{ complete: education.status === 'complete', current: education.status === 'current' }"></span>
           <div>{{education.name}}</div>
-        </h3>
+        </h2>
         <span class="resume-date text-md-right school-date">
           <span class="text-primary">{{education.startDate}} - {{education.endDate}}</span>
         </span>
@@ -42,7 +42,7 @@ div.resume-content {
 }
 
 .school-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0;
   display: flex;
@@ -66,7 +66,7 @@ div.resume-content {
   width: 20px;
   padding-left: 0px;
   left: -35px;
-  margin-top: 10px;
+  margin-top: 14px;
   position: relative;
   display: inline-block;
   align-self: start;

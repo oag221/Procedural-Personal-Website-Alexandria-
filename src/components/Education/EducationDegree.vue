@@ -11,8 +11,8 @@
 
       <div class="degree-body">
         <div class="detail-attributes mb-2">
-          <EducationMajor v-if="degree.major" :Major="degree.major"/>
           <EducationGPA v-if="degree.gpa" :GPA="degree.gpa"/>
+          <EducationMajor v-if="degree.major" :Major="degree.major"/>
           <EducationMinor v-if="degree.minor" :Minor="degree.minor"/>
           <EducationCertificate v-if="degree.certificate" :Certificate="degree.certificate"/>
           <div
@@ -20,6 +20,7 @@
             v-for="(descParagraphh, degreeIdx) in degree.description"
             v-bind:key="'EducationList' + index + 'Description' + degreeIdx"
           >{{descParagraphh.text}}</div>
+          <EducationCourses v-if="degree.courses" :Courses="degree.courses" />
         </div>
       </div>
 
@@ -34,6 +35,7 @@ import EducationMajor from './EducationMajor.vue';
 import EducationMinor from './EducationMinor.vue';
 import EducationCertificate from './EducationCertificate.vue';
 import EducationGPA from './EducationGPA.vue';
+import EducationCourses from './EducationCourses.vue';
 
 export default {
   name: "EducationDegree",
@@ -44,7 +46,8 @@ export default {
     EducationMajor,
     EducationMinor,
     EducationCertificate,
-    EducationGPA
+    EducationGPA,
+    EducationCourses
   }
 };
 </script>
@@ -63,6 +66,7 @@ export default {
 
 .expected-date {
   align-self: center;
+  font-size: 1.25rem;
 }
 
 .bubble-minor {
@@ -74,7 +78,7 @@ export default {
   width: 16px;
   padding-left: 0px;
   left: -33px;
-  margin-top: 10px;
+  margin-top: 16px;
   position: relative;
   display: inline-block;
   align-self: start;
@@ -95,6 +99,8 @@ export default {
 
 .degree.subheading {
   display: flex;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .degree.subheading div {

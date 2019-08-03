@@ -64,7 +64,7 @@ div.resume-content {
 }
 
 .experience-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0;
   display: flex;
@@ -73,6 +73,12 @@ div.resume-content {
 .experience-name div {
   position: relative;
   left: -20px;
+}
+
+.subheading {
+  display: flex;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .experience-date {
@@ -88,7 +94,7 @@ div.resume-content {
   width: 20px;
   padding-left: 0px;
   left: -35px;
-  margin-top: 10px;
+  margin-top: 14px;
   position: relative;
   display: inline-block;
   align-self: start;
