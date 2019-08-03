@@ -27,7 +27,18 @@
       "I'm interested in your tech skills",
       "Not sure how I got here..."
     ],
-    "bio": "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me."
+    "bio": [
+      "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me.",
+      "I'm entering into my junior year at Lehigh University, and am interested in internship opportunities in business and technology."
+    ],
+    "carousel": [
+      { 
+        "image": "pwc.jpg", 
+        "alt": "pwc", 
+        "title" : "PwC",
+        "description": "Working at PwC" 
+      }
+    ]
   },
   "education": [
     {
@@ -76,6 +87,26 @@
           },
           "courses": [ 
             {
+              "title": "Programming and Data Structures",
+              "code": "CSE 017",
+              "description": "Algorithmic design and implementation in a high level, object oriented language, such as Java. Classes, subclasses, recursion, searching, sorting, linked lists, trees, stacks, queues."
+            },
+            {
+              "title": "Women in Technology Seminar",
+              "code": "CSE 098",
+              "description": "seminar"
+            },
+            {
+              "title": "Intro to Data Science",
+              "code": "CSE 160",
+              "description": "Data Science is a fast-growing interdisciplinary field, focusing on the computational analysis of data to extract knowledge and insight. Collection, preparation, analysis, modeling, and visualization of data, covering both conceptual and practical issues. Examples from diverse fields and hands-on use of statistical and data manipulation software."
+            },
+            {
+              "title": "Blockchain Algorithms",
+              "code": "CSE 297",
+              "description": "Data Science is a fast-growing interdisciplinary field, focusing on the computational analysis of data to extract knowledge and insight. Collection, preparation, analysis, modeling, and visualization of data, covering both conceptual and practical issues. Examples from diverse fields and hands-on use of statistical and data manipulation software."
+            },
+            {
               "title": "Software Engineering",
               "code": "CSE 216",
               "description": "The software lifecycle; lifecycle models; software planning; testing; specification methods; maintenance. Emphasis on team work and large-scale software systems, including oral presentations and written reports."
@@ -86,24 +117,19 @@
               "description": "Algorithms for searching, sorting, manipulating graphs and trees, finding shortest paths and minimum spanning trees, scheduling tasks, etc.: proofs of their correctness and analysis of their asymptotic runtime and memory demands. Designing algorithms: recursion, divide-and-conquer, greediness, dynamic programming. Limits on algorithm efficiency using elementary NP-completeness theory."
             },
             {
-              "title": "Data Structures",
-              "code": "CSE 017",
-              "description": "Algorithmic design and implementation in a high level, object oriented language, such as Java. Classes, subclasses, recursion, searching, sorting, linked lists, trees, stacks, queues."
-            },
-            {
-              "title": "Intro to Data Science",
-              "code": "CSE 160",
-              "description": "Data Science is a fast-growing interdisciplinary field, focusing on the computational analysis of data to extract knowledge and insight. Collection, preparation, analysis, modeling, and visualization of data, covering both conceptual and practical issues. Examples from diverse fields and hands-on use of statistical and data manipulation software."
+              "title": "Database Systems, Algorithms, and Applications",
+              "code": "CSE 341",
+              "description": "Design of large databases; normalization; query languages (including SQL); Transaction-processing protocols; Query optimization; performance tuning; distributed systems."
             },
             {
               "title": "Computer Applications in Business",
               "code": "CSB 311",
-              "description": "hi"
+              "description": "A special course in sap"
             },
             {
-              "title": "Database Systems, Algorithms, and Applications",
-              "code": "CSE 341",
-              "description": "Design of large databases; normalization; query languages (including SQL); Transaction-processing protocols; Query optimization; performance tuning; distributed systems."
+              "title": "Entrepreneurial Ventures Capstone - The Garage",
+              "code": "ENTP 311",
+              "description": "A special course in launching businesses"
             }
           ]
         }
@@ -454,10 +480,19 @@
     {
       "title": "Preff",
       "image": "preff.jpg",
-      "icon": "fab fa-node-js",
+      "link": "https://www.preff.menu",
       "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
       "subheading": "Meeting up over a meal",
       "color": "#8B0B0B"
+    },
+    {
+      "title": "CSB Course Flowchart",
+      "image": "flowchart.png",
+      "link": "https://csb-flowchart.web.app",
+      "icon": "fab fa-node-js",
+      "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+      "subheading": "Map out your academic future",
+      "color": "blue"
     }
   ],
   "awards": [

@@ -5,6 +5,7 @@
     <div class="container-fluid">
       <AboutComponent v-bind:About="config.about" />
       <CallToAction v-bind:About="config.about" />
+      <!-- <CarouselComponent v-bind:About="config.about" /> -->
       <hr class="m-0" />
       <ExperienceComponent v-bind:ExperienceList="config.experience" />
       <hr class="m-0" />
@@ -35,9 +36,10 @@ import SkillsComponent from './components/Skills/SkillsComponent.vue';
 import InterestsComponent from './components/Interests/InterestsComponent.vue';
 import ProjectComponent from './components/Project/ProjectComponent.vue';
 import AwardsComponent from './components/Awards/AwardsComponent.vue';
-import CallToAction from './components/Contact/CallToAction.vue';
-import ContactComponent from './components/Contact/ContactComponent.vue';
+import CallToAction from './components/About/CallToAction.vue';
+import ContactComponent from './components/About/ContactComponent.vue';
 import AttributionComponent from './components/Attribution/AttributionComponent.vue';
+import CarouselComponent from './components/About/CarouselComponent.vue';
 
 export default {
   components: {
@@ -51,7 +53,8 @@ export default {
     AwardsComponent,
     CallToAction,
     ContactComponent,
-    AttributionComponent
+    AttributionComponent,
+    CarouselComponent
   },
   data() {
     return {

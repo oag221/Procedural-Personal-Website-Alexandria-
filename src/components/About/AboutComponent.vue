@@ -20,10 +20,10 @@
           {{About.email}}
         </a>
       </div>
-      <p class="lead mb-5">
-        {{About.bio}}
+      <p class="lead mb-2" v-for="(paragraph, index) in About.bio" v-bind:key="'Bio' + index">
+        {{paragraph}}
       </p>
-      <div class="social-icons" v-if="About.socialmedia">
+      <div class="social-icons mt-3" v-if="About.socialmedia">
         <span v-if="About.socialmedia.linkedin">
           <a :href="About.socialmedia.linkedin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
             <i class="fab fa-linkedin-in"></i>

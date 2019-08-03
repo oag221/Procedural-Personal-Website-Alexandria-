@@ -1,13 +1,13 @@
 <template>
   <span class="projects-wrapper">
-    <div class="card" data-toggle="modal" :data-target="'#Modal' + project.title">
+    <div class="card mb-5" data-toggle="modal" :data-target="'#Modal' + project.title">
       <div class="darken">
         <img v-bind:src="require(`../../assets/img/${project.image}`)" class="card-img-top img-square">
       </div>
       <div class="card-body">
         <h3 class="card-title mb-0">{{project.title}}</h3>
         <div class="subheading">{{project.subheading}}</div>
-        <a target="_blank" href="https://www.preff.menu" class="btn btn-primary btn-project" v-bind:style="{ backgroundColor: project.color }">Check it out</a>
+        <a target="_blank" :href="project.link" class="btn btn-primary btn-project" v-bind:style="{ backgroundColor: project.color }">Check it out</a>
       </div>
     </div>
     <!-- Modal -->
