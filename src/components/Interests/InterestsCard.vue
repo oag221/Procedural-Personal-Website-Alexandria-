@@ -16,14 +16,13 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <div class="w-100">
-              <h4 class="modal-title" id="exampleModalLabel">{{Interest.organization}}</h4>
+              <div class="modal-title" id="exampleModalLabel">
+                <h4>{{Interest.organization}}</h4>
+                <div class="subheading">{{Interest.role}}</div>
+              </div>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
-            </div>
-            <div class="subheading">{{Interest.role}}</div>
-
           </div>
           <div class="modal-body">
             {{Interest.description}}
@@ -54,19 +53,6 @@ section.resume-section {
 .card {
   cursor: pointer;
   border: 0;
-}
-
-.modal-content .modal-header {
-  flex-direction: column;
-}
-
-.modal-content .modal-header div button {
-  margin-left: 0;
-  align-self: end;
-}
-
-.modal-content .modal-header div h4 {
-  display: inline-block;
 }
 
 .card-title {
