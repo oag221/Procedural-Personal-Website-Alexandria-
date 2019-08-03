@@ -67,5 +67,6 @@ export default {
 .custom-select {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 </style>
