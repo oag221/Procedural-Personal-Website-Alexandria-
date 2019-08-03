@@ -2,12 +2,21 @@
   <div class="bar">
     <form class="form-inline">
       <label class="my-1 mr-2 subheading" for="inlineFormCustomSelectPref">Why are you here?</label>
-      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-        <option v-for="(option, index) in About.options" v-bind:key="'callToAction' +  index" :value="index">
+      <select v-model="selectedIndex" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <option 
+          v-for="(option, index) in About.options" 
+          v-bind:key="'callToAction' +  index" 
+          :value="index"
+        >
           {{option}}
         </option>
       </select>
-      <button type="submit" class="btn">Submit</button>
+      <a 
+        role="button" 
+        class="btn js-scroll-trigger" 
+        href="#contact" 
+        v-on:click="updateContact(selectedIndex)"
+      >Submit</a>
     </form>
   </div>
 </template>
@@ -16,7 +25,18 @@
 export default {
   name: "CallToAction",
   props: {
-    About: Object
+    About: Object,
+    ContactIndex: Number
+  },
+  data () {
+    return {
+      selectedIndex: this.ContactIndex
+    };
+  },
+  methods: {
+    updateContact (index: number) {
+      this.$emit('updateContact', index);
+    }
   }
 };
 </script>
@@ -35,8 +55,13 @@ export default {
 
 .btn {
   color: #42a5f5;
-  background-color: white;
+  background-color: #fafafa;
   width: 100px;
+}
+
+.btn:hover {
+  color: #42a5f5;
+  background-color: #ffffff;
 }
 
 .custom-select {

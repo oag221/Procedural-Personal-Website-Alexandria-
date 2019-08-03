@@ -6,6 +6,7 @@
     "inspirationlink": "https://olegagapov.com/"
   },
   "about": {
+    "scriptlink": "https://script.google.com/macros/s/AKfycbx5Cgfybr7cGRkexvR_SP5hJvTEayi5ry-UcMF5/exec",
     "firstName": "Will",
     "lastName": "Peracchio",
     "phone": "+1 (732) 713-9493",
@@ -24,9 +25,10 @@
       "facebook": null
     },
     "options": [
-      "I wanted to reach out",
-      "I'm interested in your tech skills",
-      "Not sure how I got here..."
+      "I wanted to reach out about career opportunities",
+      "I'm interested in your technical skills",
+      "Tell me more about Preff...",
+      "Not sure how I got here...but sure why not"
     ],
     "bio": [
       "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me.",

@@ -4,7 +4,10 @@
 
     <div class="container-fluid">
       <AboutComponent v-bind:About="config.about" />
-      <CallToAction v-bind:About="config.about" />
+      <CallToAction 
+        v-bind:About="config.about"
+        v-bind:ContactIndex="contactIndex"
+        @updateContact="setContactIndex" />
       <!-- <CarouselComponent v-bind:About="config.about" /> -->
       <hr class="m-0" />
       <ExperienceComponent v-bind:ExperienceList="config.experience" />
@@ -19,7 +22,9 @@
       <hr class="m-0" />
       <AwardsComponent v-bind:Awards="config.awards" />
       <hr class="m-0" />
-      <ContactComponent v-bind:About="config.about" />
+      <ContactComponent 
+        v-bind:About="config.about" 
+        v-bind:ContactIndex="contactIndex" />
       <AttributionComponent v-bind:Attribution="config.attribution" />
     </div>
   </div>
@@ -58,7 +63,8 @@ export default {
   },
   data() {
     return {
-      config: config
+      config: config,
+      contactIndex: 0
     };
   },
   mounted() {
@@ -94,6 +100,11 @@ export default {
       })
 
     })
+  },
+  methods: {
+    setContactIndex (index) {
+      this.contactIndex = index;
+    }
   }
 };
 </script>

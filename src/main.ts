@@ -9,6 +9,7 @@ require('bootstrap/dist/css/bootstrap.css')
 require('devicons/css/devicons.css')
 require('@fortawesome/fontawesome-free/css/all.min.css')
 require('./assets/css/resume.css');
+require('./assets/js/form-submission-handler.js');
 
 Vue.prototype.jquery = jquery;
 
