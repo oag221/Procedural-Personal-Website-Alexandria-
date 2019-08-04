@@ -30,8 +30,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import config from '../config/config.json'
+<script>
+const config = require('../config/config.json');
 
 import AsideComponent from './components/Aside/AsideComponent.vue';
 import AboutComponent from './components/About/AboutComponent.vue';

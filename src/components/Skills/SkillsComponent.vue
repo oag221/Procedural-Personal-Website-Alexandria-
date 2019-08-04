@@ -15,7 +15,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import SkillsSkillset from './SkillsSkillset.vue';
 import SkillsCard from './SkillsCard.vue';
 import SkillsBullets from './SkillsBullets.vue';
@@ -55,10 +55,10 @@ export default {
     }
   },
   methods: {
-    setActiveIndex (index) {
+    setActiveIndex (index: Number) {
       this.activeIndex = index;
     },
-    getRandomIndex () {
+    getRandomIndex (): Number {
       return Math.floor(Math.random() * this.Skills.catalog.length);
     }
   }

@@ -34,7 +34,7 @@ export default {
     };
   },
   methods: {
-    updateContact (index: number) {
+    updateContact (index: Number) {
       this.$emit('updateContact', index);
     }
   }

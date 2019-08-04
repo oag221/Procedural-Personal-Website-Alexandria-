@@ -29,7 +29,7 @@ export default {
     activeIndex: Number
   },
   methods: {
-    toggleActivated (index: number) {
+    toggleActivated (index: Number) {
       this.$emit('toggleActivated', index)
     }
   }
