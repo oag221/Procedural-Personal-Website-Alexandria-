@@ -41,6 +41,11 @@ i.fa-li.fa.fa-trophy {
   font-size: 1.5rem;
 }
 
+i.fa-li.fa.fa-trophy:before {
+  color: #343a40;
+}
+
+
 li.main {
   padding-top: 1rem;
   padding-bottom: 1rem;

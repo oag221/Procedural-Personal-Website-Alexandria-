@@ -26,7 +26,14 @@
               </button>
             </div>
             <div class="modal-body">
-              {{project.description}}
+              <h4 v-if="project.total">Total Winnings: {{project.total}}</h4>
+              <ul>
+                <li v-for="(bullet, bindex) in project.bullets" v-bind:key="'B' + bindex">
+                  <span class="text-primary">{{bullet.prize}}</span> {{bullet.award}} ({{bullet.date}})
+                </li>
+              </ul>
+              <p v-for="(description, dindex) in project.description" v-bind:key="'D' + dindex">{{description}}</p>
+              <a target="_blank" :href="project.link" class="btn btn-project" v-bind:style="{ backgroundColor: project.color }">See it live</a>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

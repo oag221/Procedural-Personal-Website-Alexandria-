@@ -35,7 +35,7 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Tech Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#tech">Tech</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Skills</a>

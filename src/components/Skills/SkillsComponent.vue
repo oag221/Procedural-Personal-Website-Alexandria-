@@ -1,5 +1,5 @@
 <template>
-  <section class="resume-section p-3 p-lg-5" id="skills">
+  <section class="resume-section p-3 p-lg-5" id="tech">
     <h2 class="mb-2">Technical Skills</h2>
     <div class="wrapper w-100 d-lg-flex d-sm-flex align-items-center">
       <div class="skill-container pr-2">

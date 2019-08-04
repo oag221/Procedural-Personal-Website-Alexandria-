@@ -19,7 +19,7 @@
         </span>
       </h1>
       <AboutContact :About="About" />
-      <p class="lead mb-2" v-for="(paragraph, index) in About.bio" v-bind:key="'Bio' + index">
+      <p class="lead mb-3" v-for="(paragraph, index) in About.bio" v-bind:key="'Bio' + index">
         {{paragraph}}
       </p>
       <AboutSocialMedia :SocialMedia="About.socialmedia" v-if="About.socialmedia" />

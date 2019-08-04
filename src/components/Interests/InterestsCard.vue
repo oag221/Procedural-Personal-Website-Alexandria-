@@ -25,7 +25,7 @@
               </button>
           </div>
           <div class="modal-body">
-            {{Interest.description}}
+            <p v-for="(description, dindex) in Interest.description" v-bind:key="'D' + dindex">{{description}}</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

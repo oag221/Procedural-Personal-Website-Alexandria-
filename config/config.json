@@ -28,7 +28,7 @@
       "I wanted to reach out about career opportunities",
       "I'm interested in your technical skills",
       "Tell me more about Preff...",
-      "Not sure how I got here..."
+      "Not sure why I'm here actually..."
     ],
     "bio": [
       "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me.",
@@ -54,7 +54,7 @@
           "major": [ 
             {
               "title": "Computer Science",
-              "description": "I plan on concentrating my MS in CS in the areas of data analytics and machine learning."
+              "description": "After finishing my undergrad in 3.5 years, I plan on going into graduate school, where I will get my graduate degree in one semester. I plan on concentrating my MS in CS in the areas of data analytics, algorithm design, and machine learning."
             }
           ]
         },
@@ -71,17 +71,17 @@
           "minor": [
             {
               "title": "Data Science",
-              "description": "ernwfjvwnkwjlven"
+              "description": "Data Science is an interdisciplinary field that combines areas of computer science, statistics, and other fields to extract information from large sets of structured and unstructured data."
             },
             {
               "title": "Entrepreneurship",
-              "description": "eriwngiwrni"
+              "description": "Entrepreneurial thinking is a process of utilizing empathy to solve other's problems, whether it be through starting a new business or just working through a difficult problem."
             }
           ],
           "certificate": [
             {
               "title": "Global Citizenship",
-              "description": "GCEQF"
+              "description": "Global Citizenship emphasizes critical thinking about our values in our increasingly globalized world. Lehigh's Global Citizenship Program is an interdisciplinary certificate program offered to undergraduates across all colleges, and has a final capstone project that engages in the local community."
             }
           ],
           "gpa": {
@@ -93,12 +93,12 @@
             {
               "title": "Programming and Data Structures",
               "code": "CSE 017",
-              "description": "Algorithmic design and implementation in a high level, object oriented language, such as Java. Classes, subclasses, recursion, searching, sorting, linked lists, trees, stacks, queues."
+              "description": "Algorithmic design and implementation in a high level, object oriented language, such as Java. Topics include classes, subclasses, recursion, searching, sorting, linked lists, trees, stacks, queues."
             },
             {
               "title": "Women in Technology Seminar",
               "code": "CSE 098",
-              "description": "seminar"
+              "description": "A seminar that focuses on the gender-related inclusion issues that are sadly still present in the technology industry. Lectures feature discussions with the class and guest speakers, as well as a mentorship program, and a reflective analysis of the course as a whole."
             },
             {
               "title": "Intro to Data Science",
@@ -108,7 +108,7 @@
             {
               "title": "Blockchain Algorithms",
               "code": "CSE 297",
-              "description": "Data Science is a fast-growing interdisciplinary field, focusing on the computational analysis of data to extract knowledge and insight. Collection, preparation, analysis, modeling, and visualization of data, covering both conceptual and practical issues. Examples from diverse fields and hands-on use of statistical and data manipulation software."
+              "description": "Focus on the technical implementation of blockchains and distributed ledger technologies, encryption and the math behind them, and implementation details for different blockchain design patterns. Course includes developing smart contracts via Ethereum."
             },
             {
               "title": "Software Engineering",
@@ -118,7 +118,7 @@
             {
               "title": "Algorithms",
               "code": "CSE 340",
-              "description": "Algorithms for searching, sorting, manipulating graphs and trees, finding shortest paths and minimum spanning trees, scheduling tasks, etc.: proofs of their correctness and analysis of their asymptotic runtime and memory demands. Designing algorithms: recursion, divide-and-conquer, greediness, dynamic programming. Limits on algorithm efficiency using elementary NP-completeness theory."
+              "description": "Focus on algorithmic design and growth. Includes topics about algorithms for searching, sorting, manipulating graphs and trees, finding shortest paths and minimum spanning trees, scheduling tasks, etc. proofs of their correctness and analysis of their asymptotic runtime and memory demands. Designing algorithms: recursion, divide-and-conquer, greediness, dynamic programming. Limits on algorithm efficiency using elementary NP-completeness theory."
             },
             {
               "title": "Database Systems, Algorithms, and Applications",
@@ -128,12 +128,12 @@
             {
               "title": "Computer Applications in Business",
               "code": "CSB 311",
-              "description": "A special course in sap"
+              "description": "The application of computer technology to solving business problems. Focus areas of the course include: transaction processing systems that support the revenue, conversion, and expenditure cycles of manufacturing, service, and retail business organizations. Topics include process modeling, data modeling, internal controls, corporate IT governance, IT audit techniques, SAP and application of Generalized Audit Software."
             },
             {
               "title": "Entrepreneurial Ventures Capstone - The Garage",
               "code": "ENTP 311",
-              "description": "A special course in launching businesses"
+              "description": "A class with faculty advisors and alumni mentors on marketing, financial planning, and economic and technical feasibility of entrepreneurial product- or service-based new ventures, commercial or non-profit. The classwork features oral presentations, the writing of new venture plans and discussions with guest speakers."
             }
           ]
         }
@@ -172,7 +172,7 @@
       "bullets": [
         "Developed in Angular 7 on the next generation of the PI Visualization software, working on UI, data processing, and testing areas",
         "Worked in an Agile - Scrum environment, including running stand-ups for a team of 9 and presenting at project-wide sprint review meetings",
-        "Completed an average of 15 Kanban-style effort points per sprint, improving the team's average velocity metric by 17%"
+        "Completed an average of 15 Kanban-style effort points per sprint, improving the team's average velocity metric by 15%"
       ]
     },
     {
@@ -204,27 +204,37 @@
         "id": "HTML",
         "title": "HTML5",
         "icon": "fab fa-html5",
-        "description": "Like many other programmers, HTML was one of the first technologies I was exposed to. I find it as a phenomenal entry point for learning computer science, as it's a straightforward, visual representation of the power of computers - and serves as the underlying foundation for the internet.",
-        "link": "https://getbootstrap.com",
+        "description": [
+          "HTML is the basis for every web page. It's a minimal, easy-to-understand, styling markup and is often one of the first technologies programmers are exposed to.",
+          "I find it as a phenomenal entry point for learning computer science, as it's a straightforward, visual representation of the power of computers - and serves as the underlying foundation for the internet."
+        ],
+        "link": "https://en.wikipedia.org/wiki/HTML",
         "subheading": "The structure of the web",
-        "progress": "70",
+        "progress": "80",
         "level": "Proficient"
       },
       {
         "id": "CSS",
         "title": "CSS3",
         "icon": "fab fa-css3-alt",
-        "description": "Cascading Style Sheets (CSS) is inseperably linked to HTML. It provides the basis for styling on the web.",
-        "link": "https://getbootstrap.com",
+        "description": [
+          "Cascading Style Sheets (CSS) is inseperably linked to HTML. It provides the basis for styling on the web.",
+          "CSS can take a plain-looking HTML site, and add colors and formatting to make it more visually appealing. CSS is the reason that every website doesn't look the same."
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
         "subheading": "The style of the web",
-        "progress": "70",
+        "progress": "80",
         "level": "Proficient"
       },
       {
         "id": "JS",
         "title": "JavaScript ES6+",
         "icon": "fab fa-js-square",
-        "description": "JavaScript is the action of the web.",
+        "description": [
+          "JavaScript is the action for the web, and allows for more dynamic webpages and animations. It's a powerful, flexible language; also, JavaScript is not the same as Java!",
+          "JavaScript is increasingly being managed through front-end frameworks such as Angular, React, and Vue, as well as for backend development through NodeJS."
+        ],
+        "link": "https://en.wikipedia.org/wiki/JavaScript",
         "subheading": "The Action of the Web",
         "progress": "80",
         "level": "Proficient"
@@ -233,8 +243,12 @@
         "id": "Vue",
         "title": "Vue",
         "icon": "fab fa-vuejs",
-        "description": "Vue is a front-end framework for managing application state.",
-        "subheading": "Micro-management",
+        "description": [
+          "Vue is a front-end framework for managing application state. Vue is simple to learn, but powerful.",
+          "I highly recommend Vue as your introductory front-end framework, as it is easier to learn than both Angular and React. This site is utilizes Vue to render."
+        ],
+        "link": "https://vuejs.org/",
+        "subheading": "Micro-management made easy",
         "progress": "60",
         "level": "Proficient"
       },
@@ -242,7 +256,11 @@
         "id": "Angular",
         "title": "Angular",
         "icon": "fab fa-angular",
-        "description": "Angular is a front-end framework for managing application state.",
+        "description": [
+          "Angular is a front-end framework for managing application state maintained by Google. Angular comes built-in with many different features, which can make it a little bulky but powerful.",
+          "Angular scales well for large organizations, as it has a well-developed module system. I worked in Angular at my internship at OSIsoft, and found it to be very intuitive after an initial learning curve."
+        ],
+        "link": "https://angular.io/",
         "subheading": "Grow in scale, not complexity",
         "progress": "60",
         "level": "Proficient"
@@ -251,7 +269,11 @@
         "id": "React",
         "title": "React",
         "icon": "fab fa-react",
-        "description": "React is a front-end framework for managing application state.",
+        "description": [
+          "React is a front-end framework for managing application state maintained by Facebook. Unlike Angular (and to a lesser extent Vue), React is much more minimalist and has compartively fewer features out-of-the-box.",
+          "React is extremely powerful and performant, but I would recommend checking out React after getting comfortable in either Angular or Vue."
+        ],
+        "link": "https://reactjs.org/",
         "subheading": "React to change",
         "progress": "30",
         "level": "Familiar"
@@ -260,7 +282,11 @@
         "id": "Sass",
         "title": "Sass",
         "icon": "fab fa-sass",
-        "description": "Sass is a CSS prepreprocessor that makes managing application styling.",
+        "description": [
+          "Sass is a CSS prepreprocessor that makes managing application styling easy. As applications scale, making sure styles stay consistent can be difficult to manage, which is where Sass comes in.",
+          "Sass is a simple tool that generates the necessary CSS for your project while making it easier to maintain."
+        ],
+        "link": "https://sass-lang.com/",
         "subheading": "Style that scales",
         "progress": "50",
         "level": "Familiar"
@@ -269,8 +295,12 @@
         "id": "Bootstrap",
         "title": "Bootstrap 4",
         "icon": "fab fa-bootstrap",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "description": [
+          "Bootstrap is a front-end library maintained by Twitter for easily creating beautiful, intuitive web components. Bootstrap is one of the most popular libraries in the world, and for good reason.",
+          "It helps with extensive documentation on templated components, easy-to-understand structures, and allows for easier design on responsive screen sizes."
+        ],
+        "link": "https://getbootstrap.com/",
+        "subheading": "Pick your website up",
         "progress": "40",
         "level": "Familiar"
       },
@@ -278,7 +308,11 @@
         "id": "Mongo",
         "title": "MongoDB",
         "icon": "devicon-mongodb-plain",
-        "description": "MongoDB is a non-relational database system.",
+        "description": [
+          "MongoDB is a non-relational database technology. Unlike relational databases, MongoDB utilizes objects and allows for a simpler way to represent non-uniform data.",
+          "MongoDB is a great database to start with, as you don't need to learn SQL, and can instead use the simple but explanatory methods provided."
+        ],
+        "link": "https://www.mongodb.com/",
         "subheading": "Don't Let Structure Hold You Back",
         "progress": "50",
         "level": "Familiar"
@@ -287,17 +321,25 @@
         "id": "Oracle",
         "title": "Oracle DB",
         "icon": "devicon-oracle-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "OracleDB is a traditional, relational database. Relational DB's scale better than non-relational DB's typically, and utilize the SQL language for interaction.",
+          "Oracle is a great DB technology to build out for scale, and is used by many enterprises for this reason. I've built out a mock DB in Oracle, and it is a great place to learn the ins and outs of SQL."
+        ],
+        "link": "https://www.oracle.com/database/",
         "subheading": "Enterprise SQL",
-        "progress": "40",
+        "progress": "60",
         "level": "Familiar"
       },
       {
         "id": "Postgres",
         "title": "PostgreSQL",
         "icon": "devicon-postgresql-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Relational Data",
+        "description": [
+          "PostgreSQL is another relational DB technology, but utilizes elements of non-relational DB's to be more user friendly while still allowing for scale.",
+          "PostgreSQL is a great, open-source, all-purpose DB for both starting out and for scaling up."
+        ],
+        "link": "https://www.postgresql.org/",
+        "subheading": "Relational Data from the ground up",
         "progress": "40",
         "level": "Familiar"
       },
@@ -305,7 +347,11 @@
         "id": "Docker",
         "title": "Docker",
         "icon": "fab fa-docker",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Docker helps with the often frustrating process of dependency management through containerization. It's a great tool for mocking environments, as well as for staging production applications.",
+          "Docker and the usage of containers are becoming more and more prevalent, and it is a great way to be able to focus on development, and not on your environment."
+        ],
+        "link": "https://www.docker.com/",
         "subheading": "Containerize & ship",
         "progress": "40",
         "level": "Familiar"
@@ -314,7 +360,11 @@
         "id": "Express",
         "title": "Express",
         "icon": "devicon-express-original",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Express is a lightweight, backend framework that runs through NodeJS. It's great it's simple enough to pick up as a first back-end framework, but powerful enough to serve out large applications.",
+          "Express is written in JavaScript, allowing full-stack developers to develop in JavaScript across both the front and back-end of an application."
+        ],
+        "link": "https://expressjs.com/",
         "subheading": "spin up servers fast",
         "progress": "40",
         "level": "Familiar"
@@ -323,7 +373,11 @@
         "id": "Meteor",
         "title": "Meteor",
         "icon": "devicon-meteor-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "A lot of development is managing the annoying stuff - such as authentication, authorization, deployment, and the like. Fortunately, tools like Meteor exist to help you focus on developing the business logic instead of the nitty-gritty.",
+          "Meteor helps with an environment that supports plug-ins that makes the normally frustrating things like user account management simple and painless. It's a great thing to develop in for someone starting out."
+        ],
+        "link": "https://www.meteor.com/",
         "subheading": "Focus on the business logic",
         "progress": "40",
         "level": "Familiar"
@@ -332,7 +386,11 @@
         "id": "NodeJS",
         "title": "NodeJS",
         "icon": "fab fa-node-js",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "NodeJS is an environment that took the front-end language of JavaScript and turned it into a powerful backend language. NodeJS is one of the biggest technology trends of the last few years, and has the largest communities for libraries.",
+          "I highly recommend learning NodeJS, as it allows for a quick and easy way of doing full-stack development. MongoDB, Express, and NodeJS together make a great starter stack!"
+        ],
+        "link": "https://nodejs.org/en/",
         "subheading": "fullstack in one language",
         "progress": "80",
         "level": "Proficient"
@@ -341,7 +399,11 @@
         "id": "Java",
         "title": "Java",
         "icon": "fab fa-java",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Java is one of the most ubiquitous programming languages in existence. It's a good all-purpose language, and runs everything from huge enterprises down to toasters. Java is a great language to start out with the fundamentals of Object-Oriented Programming (OOP).",
+          "Java is not the same as JavaScript, though the two do feature a similar syntax. Java is great for all sorts of projects, and is a good mix between user-control and abstraction."
+        ],
+        "link": "https://www.java.com/en/",
         "subheading": "Pick yourself up",
         "progress": "70",
         "level": "Proficient"
@@ -350,7 +412,11 @@
         "id": "Python",
         "title": "Python",
         "icon": "fab fa-python",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Python's beauty is its simplicity. Python is a very high level language, and reads more like English than other programming languages. Python is a great starting language to learn, or great to develop projects quickly with.",
+          "Python's strengths as a language include: rapid development through it's forgiving syntax, powerful back-end frameworks like Django, and extensive libraries for data analysis."
+        ],
+        "link": "https://www.python.org/",
         "subheading": "Simpled but powerful",
         "progress": "60",
         "level": "Proficient"
@@ -359,8 +425,12 @@
         "id": "Typescript",
         "title": "Typescript",
         "icon": "devicon-typescript-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up",
+        "description": [
+          "TypeScript is an open-source language that builds on top of JavaScript to make it easier to scale. Maintained by Microsoft, it introduces error checking and other things to JavaScript, allowing for it to be more developer-friendly as the project scales.",
+          "TypeScript is the basis for many large-scale front-end projects, most notably those that utilize the Angular framework."
+        ],
+        "link": "https://www.typescriptlang.org/",
+        "subheading": "Javascript that scales",
         "progress": "60",
         "level": "Proficient"
       },
@@ -368,7 +438,11 @@
         "id": "R",
         "title": "R",
         "icon": "fab fa-r-project",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "R is a language for analysis of large sets of data. R has some of the best libraries for data visualization and data analysis, so it is incredibly useful to those interested in data science.",
+          "R has a number of syntax differences from many other popular languages, so it can be harder to pick up compared to other languages."
+        ],
+        "link": "https://www.r-project.org/",
         "subheading": "Data is Power",
         "progress": "40",
         "level": "Familiar"
@@ -377,8 +451,12 @@
         "id": "C++",
         "title": "C++",
         "icon": "devicon-cplusplus-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Fast, rutless, and efficient",
+        "description": [
+          "C++ is an extremely performant language that is used in many high-usage situations. It is extremely popular among enterprises due to its high performance, but it can be a bit harder to learn.",
+          "C++ makes you manage memory more so than many other languages, and can be rather difficult to debug when things go wrong. Still, it's fast for a reason, and is a great skill to learn."
+        ],
+        "link": "http://www.cplusplus.com/",
+        "subheading": "Performant Power",
         "progress": "40",
         "level": "Familiar"
       },
@@ -386,7 +464,11 @@
         "id": "C",
         "title": "C",
         "icon": "devicon-c-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "C dials up the performance aspect of C++ at the cost of even less error checking. C is an extremely lightweight language, but can be incredibly difficult to learn for a beginner.",
+          "Unlike most current languages, C does not do automatic memory management, which leaves the user to do it. Still, C is a great bridge between higher-level languages and the assembly code that underlies all languages."
+        ],
+        "link": "https://en.wikipedia.org/wiki/C_(programming_language)",
         "subheading": "Fast, ruthless, and efficient",
         "progress": "40",
         "level": "Familiar"
@@ -395,48 +477,68 @@
         "id": "Git",
         "title": "Git",
         "icon": "fab fa-git-alt",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Git is a version control system that provides the basis for platforms like Github and Gitlab. Git lends itself very well to Agile development, and helps with iterative development.",
+          "Git is an absolutely essential technology for working in any large software development environment, as it is the basis for making incremental changes to a codebase."
+        ],
+        "link": "https://git-scm.com/",
         "subheading": "Branch into something new",
-        "progress": "70",
+        "progress": "80",
         "level": "Proficient"
       },
       {
         "id": "Slack",
         "title": "Slack",
         "icon": "fab fa-slack",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Not solely a technical skill, Slack is a method of helping to manage the workplace. Slack is a great way to facilitate communication across members of a group, and allows for limitless customization via plug-ins.",
+          "I've utilized Slack for a number of different projects and organizations, and it greatly helps to catalog all communications."
+        ],
+        "link": "https://slack.com/",
         "subheading": "Manage the workspace"
       },
       {
         "id": "Trello",
         "title": "Trello",
         "icon": "devicon-trello-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
-        "subheading": "Pick yourself up"
+        "description": [
+          "Trello is a project management tool for seeing the bigger picture of the project. It opens transparency across group work, as you can see the status on all parts of the project.",
+          "Trello is a great tool to manage projects, school, work, or even just your personal life."
+        ],
+        "link": "https://trello.com/en-US",
+        "subheading": "See the big picture"
       },
       {
         "id": "StackOverflow",
         "title": "Stack Overflow",
         "icon": "fab fa-stack-overflow",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "When things inevitably go horribly wrong during development, Stack Overflow is there for you. For seemingly every question you could ask, there already is a Stack Overflow thread with an answer already.",
+          "Almost every question you have is just a Google search away, so it's a critical skill to get comfortable with early-on in your development career."
+        ],
+        "link": "https://stackoverflow.com/",
         "subheading": "The almanac of errors"
       },
       {
         "id": "VisualStudio",
-        "title": "Visual Studio",
+        "title": "Visual Studio Code",
         "icon": "devicon-visualstudio-plain",
-        "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+        "description": [
+          "Visual Studio (paid) and Visual Studio Code (free) are phenomenal Integrated Development Environments (IDEs) that let you develop in all sorts of different languages with hundreds of different plug-ins. They make working on large projects manageable, even for beginners, and can do a number of different operations to speed up development.",
+          "Visual Studio Code is my environment of choice, especially for beginners, as it makes a lot of the set-up of software much easier."
+        ],
+        "link": "https://code.visualstudio.com/",
         "subheading": "Worry about development, not your environment"
       }
     ],
     "skillsets": [
       {
         "title": "Front-end Web Development",
-        "skills": ["HTML", "CSS", "JS", "Vue", "Angular", "React", "Sass", "Bootstrap"]
+        "skills": ["HTML", "CSS", "JS", "Vue", "Angular", "Sass", "Bootstrap", "React"]
       },
       {
         "title": "Back-end Development",
-        "skills": ["Git", "Mongo", "Oracle", "Postgres", "Docker", "Express", "Meteor"]
+        "skills": ["Git", "Oracle", "Mongo", "Postgres", "Docker", "Express", "Meteor"]
       },
       {
         "title": "Programming Languages",
@@ -451,34 +553,57 @@
   },
   "personal": [
     {
-      "skill": "Conviction",
+      "skill": "Collaboration",
       "role": "Vice-President",
       "organization": "Sigma Phi Delta",
-      "image": "sigmaphidelta.jpg"
+      "image": "sigmaphidelta.jpg",
+      "description": [
+        "Sigma Phi Delta is the premier international social-professional fraternity of engineers. As Vice-President of of the Beta-Kappa chapter of Sigma Phi Delta, I manage the professional side of the fraternity, overseeing five different professional chairs, including philanthropy, fundraising, academic, career development, and online presence.",
+        "Sigma Phi Delta has helped me tremendously develop my leadership abilities, and I've found that helping others grow professionally has helped me better understand what it means to be a professional. As an exclusively engineering fraternity, I've learned what it means to be an engineer - to solve problems.",
+        "It has helped me be a better collaborator because everything involves working together to achieve a common goal for the organization."
+      ]
     },
     {
       "skill": "Responsibility",
       "role": "Gryphon",
       "organization": "Gryphon Society",
-      "image": "gryphon.png"
+      "image": "gryphon.png",
+      "description": [
+        "Gryphons (Residential Assistants) serve as mentors, resource guides, and sometimes policy enforcers for their residents. I've learned a great deal about responsibility from being a Gryphon, including crisis management and interpersonal conflicts.",
+        "Both this year and last year I served as a Gryphon in the Sayre Park Village apartments, where I coordinated bi-weekly programming events with other Gryphons."
+      ]
     },
     {
       "skill": "Leadership",
       "role": "President",
       "organization": "Computer Science & Business Association",
-      "image": "csba.png"
+      "image": "csba.png",
+      "description": [
+        "As President of the Computer Science & Business Association, I'm in charge of helping the students of the CSB major develop professionally and personally through working with other members of the executive board. It's been a great experience to get more in-depth knowledge about a number of different topics in the areas of business and technology.",
+        "One of the most important things the CSBA does is our mentorship program, where we help first-year students with their transition from high school to college, including academic advising and help in furthering their professional goals through on-campus resource connection.",
+        "Leading the CSBA has been a great way to learn how to manage a team, especially in the areas of delegation and team member trust."
+      ]
     },
     {
-      "skill": "Compassion",
+      "skill": "Empathy",
       "role": "Lead TRAC Writing Fellow",
       "organization": "TRAC Program",
-      "image": "trac.png"
+      "image": "trac.png",
+      "description": [
+        "Writing is often a point where we are vulnerable, as it can offer a window into our mind. For that reason, writing is oftentimes a scary endeavor, especially to those who aren't comfortable with their writing.",
+        "The TRAC Program has been a great experience for me to better understand empathy through the writing process. Writing is communication on paper, and TRAC taught me that sometimes you must look beyond the words written on the paper to understand what's going on in someone's head. Sometimes, you need empathy as to where they're coming from, and how they might be feeling.",
+        "As a Lead TRAC writing fellow for the intro engineering course in Fall 2019, I hope to share what I've learned about empathy, especially with regards to solving the underlying needs of others' problems - what engineering ultimately is."
+      ]
     },
     {
       "skill": "Perspective",
       "role": "Global Citizen",
       "organization": "Global Citizenship Program",
-      "image": "gcp.png"
+      "image": "gcp.png",
+      "description": [
+        "The Global Citizenship Program has offered me tremendous perspective into what it means to be a conscientious and active citizen in the increasingly globalized world of tomorrow.",
+        "GCP helps me bring a global mindset through all problems I may face, and this mindset helps me tackle issues from new angles. It's helped me see how I can act to be a positive force for the world, even if only my small corner of it."
+      ]
     }
   ],
   "projects": [
@@ -487,7 +612,20 @@
       "title": "Preff",
       "image": "preff.jpg",
       "link": "https://www.preff.menu",
-      "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+      "description": [
+        "Preff is an entrepreneurial venture that I have been working on with friends Dom Allen, Jack Cunningham, and Cam Cipriano. Preff started as an idea for a meal-swipe app, but has since become the next way for people to meet up over a meal.",
+        "Preff has changed and pivoted from idea to idea, and has taught me the invaluable experience of building products around user feedback.",
+        "Preff has been helped tremendously by a number of Lehigh mentors from the Baker Institute for Entrepreneurship, Creativity, and Innovation. They've provided the Preff team with countless hours of mentorship, as well as networking opportunities and pitch nights.",
+        "I'm currently working with my team members to build out the full Preff app, so if you're interested in beta-testing, please contact me below!"
+      ],
+      "total": "$9,500",
+      "bullets": [
+        { "prize": "$500", "date": "March 2018", "award": "Eureka! Pitch Competition - Stage 2" },
+        { "prize": "$1000", "date": "Sept. 2018", "award": "Eureka! Pitch Competition - Stage 3" },
+        { "prize": "$1000", "date": "March 2019", "award": "Eureka! Pitch Competition - Stage 3" },
+        { "prize": "$5000", "date": "April 2019", "award": "Eureka! Pitch Competition - Joan F. & John M. Thalheimer '55 Grand Prize, Michael W. Levin ’87 Advanced Technology Award" },
+        { "prize": "$2000", "date": "April 2019", "award": "Lehigh Valley Innovation and Collegiate Business Pitch Summit - 2nd Place" }
+      ],
       "subheading": "Meeting up over a meal",
       "color": "#8B0B0B"
     },
@@ -497,7 +635,11 @@
       "image": "flowchart.png",
       "link": "https://csb-flowchart.web.app",
       "icon": "fab fa-node-js",
-      "description": "Bootstrap is a front-end library for easily creating beautiful, intuitive components.",
+      "description": [ 
+        "The CSB course flowchart is a project which I inherited from an earlier CSB student, and remade to have greater functionality and updated course descriptions.",
+        "The CSB course flowchart has information on minors, electives, and AP credit for the CSB major, is used by CSB students to help plan out their academic course load.",
+        "I am currently rewriting this project in Vue, so that it can better manage state, and so that it can be more customizable for other academic departments who want something similar."
+      ],
       "subheading": "Map out your academic future",
       "color": "#428bca"
     }
