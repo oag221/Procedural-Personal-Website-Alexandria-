@@ -61,6 +61,7 @@ section.resume-section {
 
 img.img-fluid.img-profile.rounded-circle.profile-pic {
   width: 10rem;
+  height: 10rem;
   justify-self: center;
 }
 
