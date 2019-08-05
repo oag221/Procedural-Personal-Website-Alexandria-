@@ -31,7 +31,7 @@
 </template>
 
 <script>
-const config = require('../config/config.json');
+const config = require('../public/config/config.json');
 
 import AsideComponent from './components/Aside/AsideComponent.vue';
 import AboutComponent from './components/About/AboutComponent.vue';
