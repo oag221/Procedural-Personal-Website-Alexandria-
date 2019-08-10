@@ -173,7 +173,7 @@
       "bullets": [
         "Developed in Angular 7 on the next generation of the PI Visualization software, working on UI, data processing, and testing areas",
         "Worked in an Agile - Scrum environment, including running stand-ups for a team of 9 and presenting at project-wide sprint review meetings",
-        "Completed an average of 15 Kanban-style effort points per sprint, improving the team's average velocity metric by 15%"
+        "Completed an average of 15 Kanban-style effort points per sprint, improving the team's average velocity metric by 26%"
       ]
     },
     {
@@ -211,7 +211,7 @@
         ],
         "link": "https://en.wikipedia.org/wiki/HTML",
         "subheading": "The structure of the web",
-        "progress": "80",
+        "progress": "70",
         "level": "Proficient"
       },
       {
@@ -224,7 +224,7 @@
         ],
         "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
         "subheading": "The style of the web",
-        "progress": "80",
+        "progress": "70",
         "level": "Proficient"
       },
       {
@@ -237,7 +237,7 @@
         ],
         "link": "https://en.wikipedia.org/wiki/JavaScript",
         "subheading": "The Action of the Web",
-        "progress": "80",
+        "progress": "70",
         "level": "Proficient"
       },
       {
@@ -393,7 +393,7 @@
         ],
         "link": "https://nodejs.org/en/",
         "subheading": "fullstack in one language",
-        "progress": "80",
+        "progress": "70",
         "level": "Proficient"
       },
       {
@@ -484,7 +484,7 @@
         ],
         "link": "https://git-scm.com/",
         "subheading": "Branch into something new",
-        "progress": "80",
+        "progress": "70",
         "level": "Proficient"
       },
       {
