@@ -52,10 +52,28 @@
         { 
           "degree": "Master of Science", 
           "expected": "May 2021",
+          "status": "current",
           "major": [ 
             {
               "title": "Computer Science",
               "description": "After finishing my undergrad in 3.5 years, I plan on going into graduate school, where I will get my graduate degree in one semester. I plan on concentrating my MS in CS in the areas of data analytics, algorithm design, and machine learning."
+            }
+          ],
+          "courses": [
+            {
+              "title": "Business Analytics for Decision Making",
+              "code": "BIS 456",
+              "description": "Provides students with a theoretical and practical understanding of core data analytics concepts and techniques, and develops hands-on experience in applying these techniques to practical real-word business problems using R software. As an applied course, the emphasis will be less on the inner working of each method and more on when and how to use each technique and how to interpret the results."
+            },
+            {
+              "title": "Network Security",
+              "code": "CSE 343",
+              "description": "Overview of network security threats and vulnerabilities. Techniques and tools for detecting, responding to and recovering from security incidents. Fundamentals of cryptography. Hands-on experience with programming techniques for security protocols."
+            },
+            {
+              "title": "Data Mining",
+              "code": "CSE 347",
+              "description": "Overview of modern data mining techniques: data cleaning; attribute and subset selection; model construction, evaluation and application. Fundamental mathematics and algorithms for decision trees, covering algorithms, association mining, statistical modeling, linear models, neural networks, instance-based learning and clustering covered. Practical design, implementation, application, and evaluation of data mining techniques in class projects."
             }
           ]
         },
@@ -87,7 +105,7 @@
           ],
           "gpa": {
             "cumulative": "3.97",
-            "major": "4.00",
+            "major": "3.98",
             "scale": "4.00"
           },
           "courses": [ 
@@ -117,7 +135,7 @@
               "description": "The software lifecycle; lifecycle models; software planning; testing; specification methods; maintenance. Emphasis on team work and large-scale software systems, including oral presentations and written reports."
             },
             {
-              "title": "Algorithms",
+              "title": "Design & Analysis of Algorithms",
               "code": "CSE 340",
               "description": "Focus on algorithmic design and growth. Includes topics about algorithms for searching, sorting, manipulating graphs and trees, finding shortest paths and minimum spanning trees, scheduling tasks, etc. proofs of their correctness and analysis of their asymptotic runtime and memory demands. Designing algorithms: recursion, divide-and-conquer, greediness, dynamic programming. Limits on algorithm efficiency using elementary NP-completeness theory."
             },
