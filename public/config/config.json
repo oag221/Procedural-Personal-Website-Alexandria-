@@ -150,6 +150,11 @@
               "description": "The application of computer technology to solving business problems. Focus areas of the course include: transaction processing systems that support the revenue, conversion, and expenditure cycles of manufacturing, service, and retail business organizations. Topics include process modeling, data modeling, internal controls, corporate IT governance, IT audit techniques, SAP and application of Generalized Audit Software."
             },
             {
+              "title": "Design of Integrated Business Applications I",
+              "code": "CSB 312",
+              "description": "Industry-based business information systems design project. Information systems design methodology, user needs analysis, project feasibility analysis of design alternatives, and integrated product development methodology. Formal oral and written presentations to clients."
+            },
+            {
               "title": "Entrepreneurial Ventures Capstone - The Garage",
               "code": "ENTP 311",
               "description": "A class with faculty advisors and alumni mentors on marketing, financial planning, and economic and technical feasibility of entrepreneurial product- or service-based new ventures, commercial or non-profit. The classwork features oral presentations, the writing of new venture plans and discussions with guest speakers."
@@ -183,7 +188,7 @@
   ],
   "experience": [
     {
-      "role": "Incoming Software Development Intern",
+      "role": "Incoming Software Engineering Intern",
       "company": "Microsoft - Azure Compute",
       "status": "",
       "startDate": "June 2020",
@@ -672,6 +677,14 @@
   ],
   "awards": [
     {
+      "title": "Beta Gamma Sigma Initiate",
+      "date": "April 2020",
+      "bullets": [
+        "Initiated as part of Lehigh University's Spring 2020 initiate class",
+        "Founded in 1913, Beta Gamma Sigma is the international business honor society for AACSB-accredited schools, which are the top 5% of business school programs around the world. Inducted as students, BGS members go on to serve in critical leadership roles in corporate, entrepreneurial, government, non-profit, and academic sectors. Members currently reside in all 50 U. S. states and more than 190 countries. Notable members include Nobel Prize winners, Olympians, inventors, CEOs of major global companies and nonprofit organizations, deans of the top business schools, and others who are making the world a better place at all levels of contribution through social enterprise, service, and leadership. Beta Gamma Sigma is a proud member of the Association of College Honor Societies (ACHS)."
+      ]
+    },
+    {
       "title": "Piazza Tech Tour Finalist",
       "date": "Aug. 2019",
       "bullets": [
@@ -692,7 +705,7 @@
       "date": "April 2019",
       "bullets": [
         "Initiated as part of Lehigh University's Spring 2019 initiate class",
-        "Tau Beta Pi is the oldest engineering honor society in the United States"
+        "Tau Beta Pi is the only engineering honor society representing the entire engineering profession. It is the nation's second-oldest honor society, founded at Lehigh University in 1885 to mark in a fitting manner those who have conferred honor upon their Alma Mater by distinguished scholarship and exemplary character as students in engineering, or by their attainments as alumni in the field of engineering, and to foster a spirit of liberal culture in engineering colleges. There are now collegiate chapters at 248 US colleges and universities, 44 active alumni chapters in 16 districts across the country, and a total initiated membership of approximately 594,000."
       ]
     },
     {

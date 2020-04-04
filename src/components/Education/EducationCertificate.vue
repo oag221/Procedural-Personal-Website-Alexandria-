@@ -44,12 +44,13 @@ export default {
   min-width: 75px;
 }
 
-a.btn {
+a.btn, a.btn:focus {
   cursor: pointer;
+  color: white !important;
 }
 
-a.btn:focus {
-  color: white;
+a.btn:hover {
+  color: #2196F3 !important;
 }
 </style>
 
