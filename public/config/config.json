@@ -33,7 +33,7 @@
     "bio": [
       "I surround myself with people who are smarter than me to learn from them. I'm motivated and determined to always better myself, and I bring out the best in others because I know that brings out the best in me.",
       "I'm driven to learn and persistently curious about business, computer science, and data analysis. I love applying the theory of computer science, math, and statistics to real-world business applications.",
-      "I'm entering into my junior year at Lehigh University, and am interested in internship opportunities in business and technology."
+      "I'm entering into my senior year at Lehigh University, and am interested in internship opportunities in business and technology."
     ],
     "resume": "resume.pdf",
     "carousel": [
@@ -91,6 +91,10 @@
             {
               "title": "Data Science",
               "description": "Data Science is an interdisciplinary field that combines areas of computer science, statistics, and other fields to extract information from large sets of structured and unstructured data."
+            },
+            {
+              "title": "Economics",
+              "description": "Though economics is variously defined, modern-day definitions generally suggest that it is the study of the principles that govern the efficient allocation of resources.  One of the greatest of the 19th century economists who did much to uncover these principles suggested a broader definition.  Alfred Marshall described economics as “a study of mankind in the ordinary business of life and a part of the study of man.”"
             },
             {
               "title": "Entrepreneurship",
@@ -158,6 +162,11 @@
               "title": "Entrepreneurial Ventures Capstone - The Garage",
               "code": "ENTP 311",
               "description": "A class with faculty advisors and alumni mentors on marketing, financial planning, and economic and technical feasibility of entrepreneurial product- or service-based new ventures, commercial or non-profit. The classwork features oral presentations, the writing of new venture plans and discussions with guest speakers."
+            },
+            {
+              "title": "Strategic Management in a Global Environment",
+              "code": "MGT 301",
+              "description": "The capstone business class, integrating concepts and practices from core business classes, utilizing an organization-wide, strategic perspective and examining the relationship among firm strategy, structure and environment. Course emphasizes strategic analysis, strategy formulation, and strategy implementation to achieve sustainable competitive advantage. Corporate governance, corporate social responsibility and business ethics are incorporated into the strategic perspective. Case analyses and competitive simulation game are central learning components."
             }
           ]
         }
@@ -189,10 +198,13 @@
   "experience": [
     {
       "role": "Incoming Software Engineering Intern",
-      "company": "Microsoft - Azure Compute",
+      "company": "Microsoft - Azure Compute: Cloud + AI",
       "status": "",
       "startDate": "June 2020",
-      "endDate": "Aug. 2020"
+      "endDate": "Aug. 2020",
+      "bullets": [
+        "In advance of my upcoming internship, I became Microsoft Certified in Azure Fundamentals (AZ-900)"
+      ]
     },
     {
       "role": "Software Development Intern",
@@ -576,7 +588,7 @@
         "skills": ["NodeJS", "Java", "Python", "Typescript", "R", "C++", "C"]
       },
       {
-        "title": "Productivity Tools",
+        "title": "The Modern Workplace",
         "skills": ["Slack", "Trello", "StackOverflow", "VisualStudio"]
       }
     ],
@@ -677,6 +689,28 @@
   ],
   "awards": [
     {
+      "title": "Lehigh University Class of 1904 Scholarship",
+      "date": "May 2020",
+      "bullets": [
+        "Members of the Class of 1904, looking forward to suitably commemorating their 50th reunion and desiring to make a substantial contribution toward the University’s growth conceived the idea of establishing a scholarship fund in honor of the class. The fund was formally turned over to the University on the occasion of the Golden Anniversary of the class in June 1954. The income from the fund is to be used to award a senior scholarship on the basis of character, scholarship, qualifications indicating promise of future leadership, and extracurricular activities."
+      ]
+    },
+    {
+      "title": "Lehigh University Contribution to Student Life Leadership Award",
+      "date": "May 2020",
+      "bullets": [
+        "This award recognizes underclass students who have significantly contributed to the improvement of the quality of student life during their time at Lehigh. Criteria include: good academic standing and specific contributions to student life through involvement in campus activities, academic initiatives, student governance, community service, leadership and their pursuits to support and empower their peers."
+      ]
+    },
+    {
+      "title": "Phi Beta Kappa Initiate",
+      "date": "April 2020",
+      "bullets": [
+        "Initiated as part of Lehigh University's 2020 initiate class",
+        "The Phi Beta Kappa Society (ΦΒΚ) is the oldest academic honor society in the United States, and is often described as its most prestigious honor society, due to its long history and academic selectivity. Phi Beta Kappa aims to promote and advocate excellence in the liberal arts and sciences, and to induct the most outstanding students of arts and sciences at American colleges and universities. It was founded at the College of William and Mary on December 5, 1776 as the first collegiate Greek-letter fraternity and was among the earliest collegiate fraternal societies."
+      ]
+    },
+    {
       "title": "Beta Gamma Sigma Initiate",
       "date": "April 2020",
       "bullets": [
@@ -712,7 +746,7 @@
       "title": "Rossin Junior Fellow",
       "date": "April 2019",
       "bullets": [
-        "Selected as one of two students by the Department of Computer Science & Engineering to represent the Class of 2021 in the RJF Honor Society",
+        "Selected as one of three students by the Department of Computer Science & Engineering to represent the Class of 2021 in the RJF Honor Society",
         "I help represent the P.C. Rossin College of Engineering & Applied Sciences to prospective students through admissions events and admitted student days"
       ]
     },
