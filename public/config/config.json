@@ -197,13 +197,14 @@
   ],
   "experience": [
     {
-      "role": "Incoming Software Engineering Intern",
-      "company": "Microsoft - Azure Compute: Cloud + AI",
-      "status": "",
+      "role": "Software Engineering Intern",
+      "company": "Microsoft - Cloud + AI Business Unit: Azure Compute Division",
+      "status": "current",
       "startDate": "June 2020",
       "endDate": "Aug. 2020",
       "bullets": [
-        "In advance of my upcoming internship, I became Microsoft Certified in Azure Fundamentals (AZ-900)"
+        "In preparation for my internship, I became Microsoft Certified in Azure Fundamentals (AZ-900) this past May",
+        "This summer, I'll be working on products that will be used in the Microsoft Azure Cloud."
       ]
     },
     {

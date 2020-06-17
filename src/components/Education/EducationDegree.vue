@@ -20,7 +20,7 @@
             v-for="(descParagraphh, degreeIdx) in degree.description"
             v-bind:key="'EducationList' + index + 'Description' + degreeIdx"
           >{{descParagraphh.text}}</div>
-          <EducationCourses v-if="degree.courses" :Courses="degree.courses" />
+          <EducationCourses v-if="degree.courses" :Courses="degree.courses" :Degree_Index="index" />
         </div>
       </div>
 
