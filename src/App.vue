@@ -32,7 +32,7 @@ export default {
   },
   data () {
     return {
-      config: devConfig || this.setConf()
+      config: this.setConf()
     }
   },
   methods: {
