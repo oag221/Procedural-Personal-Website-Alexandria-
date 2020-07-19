@@ -33,12 +33,12 @@
 
 <script lang="ts">
 export default {
-  name: "EducationCourses",
+  name: 'EducationCourses',
   props: {
     Courses: Array,
     Degree_Index: Number
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

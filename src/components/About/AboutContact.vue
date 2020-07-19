@@ -15,11 +15,11 @@
 
 <script lang="ts">
 export default {
-  name: "AboutContact",
+  name: 'AboutContact',
   props: {
     About: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

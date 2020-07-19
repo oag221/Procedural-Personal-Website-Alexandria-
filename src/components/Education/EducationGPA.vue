@@ -7,11 +7,11 @@
 
 <script lang="ts">
 export default {
-  name: "EducationGPA",
+  name: 'EducationGPA',
   props: {
     GPA: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

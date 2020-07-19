@@ -19,11 +19,11 @@
 
 <script lang="ts">
 export default {
-  name: "SkillsCard",
+  name: 'SkillsCard',
   props: {
     skill: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

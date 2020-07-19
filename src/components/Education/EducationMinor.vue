@@ -23,11 +23,11 @@
 
 <script lang="ts">
 export default {
-  name: "EducationMinor",
+  name: 'EducationMinor',
   props: {
     Minor: Array
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

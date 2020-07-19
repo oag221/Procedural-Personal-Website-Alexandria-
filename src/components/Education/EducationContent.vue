@@ -16,10 +16,10 @@
 </template>
 
 <script lang="ts">
-import EducationDegree from './EducationDegree.vue';
+import EducationDegree from './EducationDegree.vue'
 
 export default {
-  name: "EducationContent",
+  name: 'EducationContent',
   props: {
     education: Object,
     index: Number

@@ -25,11 +25,11 @@
 
 <script lang="ts">
 export default {
-  name: "AboutSocialMedia",
+  name: 'AboutSocialMedia',
   props: {
     SocialMedia: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

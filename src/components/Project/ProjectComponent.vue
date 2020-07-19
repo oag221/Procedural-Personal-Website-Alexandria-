@@ -12,10 +12,10 @@
 </template>
 
 <script lang="ts">
-import ProjectCard from './ProjectCard.vue';
+import ProjectCard from './ProjectCard.vue'
 
 export default {
-  name: "ProjectComponent",
+  name: 'ProjectComponent',
   props: {
     Projects: Array
   },

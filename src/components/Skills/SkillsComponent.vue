@@ -16,12 +16,12 @@
 </template>
 
 <script lang="ts">
-import SkillsSkillset from './SkillsSkillset.vue';
-import SkillsCard from './SkillsCard.vue';
-import SkillsBullets from './SkillsBullets.vue';
+import SkillsSkillset from './SkillsSkillset.vue'
+import SkillsCard from './SkillsCard.vue'
+import SkillsBullets from './SkillsBullets.vue'
 
 export default {
-  name: "SkillsComponent",
+  name: 'SkillsComponent',
   props: {
     Skills: Object
   },
@@ -37,29 +37,29 @@ export default {
   },
   computed: {
     SkillList () {
-      return this.Skills.skillsets.map(skillset => {
-        skillset.skills = skillset.skills.map(skillId => {
-          let index;
-          let skillObj = this.Skills.catalog.filter((item, idx) => {
+      return this.Skills.skillsets.map((skillset) => {
+        skillset.skills = skillset.skills.map((skillId) => {
+          let index
+          const skillObj = this.Skills.catalog.filter((item, idx) => {
             if (item.id === skillId) {
-              index = idx;
-              return true;
+              index = idx
+              return true
             }
-            return false;
-          })[0];
-          skillObj.index = index;
-          return skillObj;
-        });
-        return {...skillset};
-      });
+            return false
+          })[0]
+          skillObj.index = index
+          return skillObj
+        })
+        return { ...skillset }
+      })
     }
   },
   methods: {
     setActiveIndex (index: Number) {
-      this.activeIndex = index;
+      this.activeIndex = index
     },
     getRandomIndex (): Number {
-      return Math.floor(Math.random() * this.Skills.catalog.length);
+      return Math.floor(Math.random() * this.Skills.catalog.length)
     }
   }
 }

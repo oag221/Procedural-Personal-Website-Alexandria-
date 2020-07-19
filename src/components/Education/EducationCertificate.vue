@@ -23,11 +23,11 @@
 
 <script lang="ts">
 export default {
-  name: "EducationCertificate",
+  name: 'EducationCertificate',
   props: {
     Certificate: Array
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

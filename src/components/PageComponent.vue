@@ -30,20 +30,20 @@
 
 <script>
 
-import AsideComponent from './Aside/AsideComponent.vue';
-import AboutComponent from './About/AboutComponent.vue';
-import ExperienceComponent from './Experience/ExperienceComponent.vue';
-import EducationComponent from './Education/EducationComponent.vue';
-import SkillsComponent from './Skills/SkillsComponent.vue';
-import InterestsComponent from './Interests/InterestsComponent.vue';
-import ProjectComponent from './Project/ProjectComponent.vue';
-import AwardsComponent from './Awards/AwardsComponent.vue';
-import CallToAction from './About/CallToAction.vue';
-import ContactComponent from './About/ContactComponent.vue';
-import AttributionComponent from './Attribution/AttributionComponent.vue';
+import AsideComponent from './Aside/AsideComponent.vue'
+import AboutComponent from './About/AboutComponent.vue'
+import ExperienceComponent from './Experience/ExperienceComponent.vue'
+import EducationComponent from './Education/EducationComponent.vue'
+import SkillsComponent from './Skills/SkillsComponent.vue'
+import InterestsComponent from './Interests/InterestsComponent.vue'
+import ProjectComponent from './Project/ProjectComponent.vue'
+import AwardsComponent from './Awards/AwardsComponent.vue'
+import CallToAction from './About/CallToAction.vue'
+import ContactComponent from './About/ContactComponent.vue'
+import AttributionComponent from './Attribution/AttributionComponent.vue'
 
 export default {
-  name: "PageComponent",
+  name: 'PageComponent',
   components: {
     AsideComponent,
     AboutComponent,
@@ -60,18 +60,18 @@ export default {
   props: {
     config: Object
   },
-  data() {
+  data () {
     return {
       contactIndex: 0
-    };
+    }
   },
-  mounted() {
-    const $ = this.jquery;
+  mounted () {
+    const $ = this.jquery
     this.$nextTick(() => {
       // our custom jQuery code goes here
       $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-          var target = $(this.hash)
+          let target = $(this.hash)
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
           if (target.length) {
             $('html, body').animate({
@@ -91,7 +91,7 @@ export default {
       })
       $('[data-toggle="tooltip"]').tooltip()
       $(function () {
-        $('[data-toggle="popover"]').popover()      
+        $('[data-toggle="popover"]').popover()
         $('.popover-dismiss').popover({
           trigger: 'focus'
         })
@@ -101,10 +101,10 @@ export default {
   },
   methods: {
     setContactIndex (index) {
-      this.contactIndex = index;
+      this.contactIndex = index
     }
   }
-};
+}
 </script>
 
 <style scoped>

@@ -18,7 +18,7 @@
 import ExperienceContent from './ExperienceContent.vue'
 
 export default {
-  name: "ExperienceComponent",
+  name: 'ExperienceComponent',
   props: {
     ExperienceList: Array
   },

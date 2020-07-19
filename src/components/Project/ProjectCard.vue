@@ -46,11 +46,11 @@
 
 <script lang="ts">
 export default {
-  name: "ProjectCard",
+  name: 'ProjectCard',
   props: {
     project: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

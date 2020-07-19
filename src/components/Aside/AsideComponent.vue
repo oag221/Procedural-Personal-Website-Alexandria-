@@ -57,10 +57,10 @@
 
 <script lang="ts">
 export default {
-  name: "AsideComponent",
+  name: 'AsideComponent',
   props: {
     About: Object
-  },
+  }
 }
 </script>
 

@@ -22,11 +22,11 @@
 
 <script lang="ts">
 export default {
-  name: "CarouselComponent",
+  name: 'CarouselComponent',
   props: {
     About: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

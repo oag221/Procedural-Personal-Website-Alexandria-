@@ -17,11 +17,11 @@
 
 <script lang="ts">
 export default {
-  name: "Attribution",
+  name: 'Attribution',
   props: {
     Attribution: Object
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

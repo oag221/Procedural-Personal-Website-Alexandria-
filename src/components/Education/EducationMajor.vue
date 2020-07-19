@@ -23,11 +23,11 @@
 
 <script lang="ts">
 export default {
-  name: "EducationMajor",
+  name: 'EducationMajor',
   props: {
     Major: Array
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

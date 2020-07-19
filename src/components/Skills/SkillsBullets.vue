@@ -14,11 +14,11 @@
 
 <script lang="ts">
 export default {
-  name: "SkillsBullets",
+  name: 'SkillsBullets',
   props: {
     Bullets: Array
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

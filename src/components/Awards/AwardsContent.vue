@@ -15,7 +15,7 @@
 
 <script lang="ts">
 export default {
-  name: "AwardsComponent",
+  name: 'AwardsComponent',
   props: {
     Award: Object
   }

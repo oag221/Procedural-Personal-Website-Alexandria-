@@ -2,20 +2,20 @@
   <div>
     <div class="subheading">{{skillset.title}}</div>
     <ul class="list-inline">
-      <li 
-        v-on:click="toggleActivated(skill.index)" 
-        v-bind:class="{active: activeIndex === skill.index}" 
-        v-for="(skill, idx) in skillset.skills" 
-        class="list-inline-item" 
+      <li
+        v-on:click="toggleActivated(skill.index)"
+        v-bind:class="{active: activeIndex === skill.index}"
+        v-for="(skill, idx) in skillset.skills"
+        class="list-inline-item"
         v-bind:key="skillset.title + 'Skill' + idx"
       >
-        <i 
-          v-bind:class="skill.icon" 
-          class="icon" 
-          data-toggle="tooltip" 
-          data-placement="bottom" 
+        <i
+          v-bind:class="skill.icon"
+          class="icon"
+          data-toggle="tooltip"
+          data-placement="bottom"
           v-bind:title="skill.title"
-          ></i>
+        ></i>
       </li>
     </ul>
   </div>
@@ -23,7 +23,7 @@
 
 <script lang="ts">
 export default {
-  name: "SkillsSkillset",
+  name: 'SkillsSkillset',
   props: {
     skillset: Object,
     activeIndex: Number
@@ -33,24 +33,24 @@ export default {
       this.$emit('toggleActivated', index)
     }
   }
-};
+}
 </script>
 
 <style scoped lang="scss">
 .icon {
   cursor: pointer;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 ul li {
   font-size: 2rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   border: solid 1px transparent;
 }
 
 ul li.active {
-  background-color: #2196F3;
-  border: solid 1px #2196F3;
+  background-color: #2196f3;
+  border: solid 1px #2196f3;
   transition: 0.15s ease-in-out;
 }
 
@@ -59,10 +59,10 @@ ul li.active:hover {
 }
 
 ul li.active:hover > i {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 ul li.active > i {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 </style>

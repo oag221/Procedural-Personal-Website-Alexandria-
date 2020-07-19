@@ -34,11 +34,11 @@
 </template>
 
 <script lang="ts">
-import AboutSocialMedia from './AboutSocialMedia.vue';
-import AboutContact from './AboutContact.vue';
+import AboutSocialMedia from './AboutSocialMedia.vue'
+import AboutContact from './AboutContact.vue'
 
 export default {
-  name: "AboutComponent",
+  name: 'AboutComponent',
   props: {
     About: Object
   },
@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     resume () {
-      window.open("/" + this.About.resume);
+      window.open('/' + this.About.resume)
     }
   }
 }
@@ -67,7 +67,7 @@ img.img-fluid.img-profile.rounded-circle.profile-pic {
 
 .image-name {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .small-name {

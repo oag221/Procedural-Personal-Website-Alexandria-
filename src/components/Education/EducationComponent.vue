@@ -13,10 +13,10 @@
 </template>
 
 <script lang="ts">
-import EducationContent from "./EducationContent.vue";
+import EducationContent from './EducationContent.vue'
 
 export default {
-  name: "EducationComponent",
+  name: 'EducationComponent',
   props: {
     EducationList: Array
   },

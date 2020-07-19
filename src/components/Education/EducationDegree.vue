@@ -31,14 +31,14 @@
 </template>
 
 <script lang="ts">
-import EducationMajor from './EducationMajor.vue';
-import EducationMinor from './EducationMinor.vue';
-import EducationCertificate from './EducationCertificate.vue';
-import EducationGPA from './EducationGPA.vue';
-import EducationCourses from './EducationCourses.vue';
+import EducationMajor from './EducationMajor.vue'
+import EducationMinor from './EducationMinor.vue'
+import EducationCertificate from './EducationCertificate.vue'
+import EducationGPA from './EducationGPA.vue'
+import EducationCourses from './EducationCourses.vue'
 
 export default {
-  name: "EducationDegree",
+  name: 'EducationDegree',
   props: {
     Degrees: Array
   },
@@ -49,7 +49,7 @@ export default {
     EducationGPA,
     EducationCourses
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

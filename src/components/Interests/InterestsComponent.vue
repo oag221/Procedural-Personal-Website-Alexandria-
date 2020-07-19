@@ -12,10 +12,10 @@
 </template>
 
 <script lang="ts">
-import InterestsCard from './InterestsCard.vue';
+import InterestsCard from './InterestsCard.vue'
 
 export default {
-  name: "InterestsComponent",
+  name: 'InterestsComponent',
   props: {
     Interests: Array
   },

@@ -23,7 +23,7 @@
 
 <script lang="ts">
 export default {
-  name: "CallToAction",
+  name: 'CallToAction',
   props: {
     About: Object,
     ContactIndex: Number
@@ -31,14 +31,14 @@ export default {
   data () {
     return {
       selectedIndex: this.ContactIndex
-    };
+    }
   },
   methods: {
     updateContact (index: Number) {
-      this.$emit('updateContact', index);
+      this.$emit('updateContact', index)
     }
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

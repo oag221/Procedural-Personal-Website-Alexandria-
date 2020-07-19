@@ -44,12 +44,12 @@
 
 <script lang="ts">
 export default {
-  name: "ExperienceContent",
+  name: 'ExperienceContent',
   props: {
     experience: Object,
     index: Number
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

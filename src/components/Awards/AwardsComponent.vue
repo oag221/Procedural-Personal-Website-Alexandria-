@@ -10,10 +10,10 @@
 </template>
 
 <script lang="ts">
-import AwardsContent from './AwardsContent.vue';
+import AwardsContent from './AwardsContent.vue'
 
 export default {
-  name: "AwardsComponent",
+  name: 'AwardsComponent',
   props: {
     Awards: Array
   },

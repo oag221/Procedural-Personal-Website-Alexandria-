@@ -79,10 +79,10 @@
 </template>
 
 <script lang="ts">
-import ContactComponent from './ContactComponent.vue';
+import ContactComponent from './ContactComponent.vue'
 
 export default {
-  name: "ContactComponent",
+  name: 'ContactComponent',
   props: {
     About: Object,
     ContactIndex: Number

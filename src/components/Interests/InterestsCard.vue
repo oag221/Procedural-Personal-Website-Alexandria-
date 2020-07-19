@@ -38,7 +38,7 @@
 
 <script lang="ts">
 export default {
-  name: "InterestsComponent",
+  name: 'InterestsComponent',
   props: {
     Interest: Object
   }
