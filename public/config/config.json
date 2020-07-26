@@ -48,6 +48,7 @@
   "education": [
     {
       "name": "Lehigh University",
+      "sankey": "lehigh_sankeymatic.png",
       "degrees": [
         { 
           "degree": "Master of Science", 

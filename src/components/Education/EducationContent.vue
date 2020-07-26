@@ -10,6 +10,10 @@
           <span class="text-primary">{{education.startDate}} - {{education.endDate}}</span>
         </span>
       </div>
+      <div v-if="education.sankey">
+        <div class="sankey-text subheading">An Academic Snapshot</div>
+        <img v-bind:src="require(`./../../assets/img/${education.sankey}`)" class="sankey" />
+      </div>
       <EducationDegree v-if="education.degrees" :Degrees="education.degrees" />
     </div>
   </div>
@@ -73,6 +77,16 @@ div.resume-content {
   position: relative;
   display: inline-block;
   align-self: start;
+}
+
+.sankey {
+  max-width: 100%;
+}
+
+.sankey-text {
+  display: flex;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .complete {

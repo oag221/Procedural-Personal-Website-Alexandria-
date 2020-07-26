@@ -1,0 +1,54 @@
+http://sankeymatic.com/build/
+
+Graduate Degree [31] College
+CS + Business Major [110] Undergraduate Degree
+Undergraduate Degree [169] College
+Business Info Systems [3] Graduate Major
+CS + Business [3] Electives
+CS + Business [9] Integrated Courses
+CS [32] Technical Courses
+CS [5] Electives
+CS [28] Graduate Major
+CS [3] HSS Requirement
+CS [3] Data Science Minor
+Graduate Major [31] Graduate Degree
+Technical Courses [32] CS + Business Major
+Accounting [6] Business Core
+Business [3] Business Core
+Finance [3] Business Core
+Finance [3] Data Science Minor
+Supply Chain Mgt. [3] Business Core
+Economics [10] Business Core
+Entrepreneurship [1] Electives
+Law [3] Business Core
+Marketing [3] Business Core
+Management [3] Business Core
+Management [2] Electives
+Integrated Courses [9] CS + Business Major
+Business Core [34] CS + Business Major
+Physics [10] Science Requirement
+Biology [2] Science Requirement
+Biology [2] Electives
+Science Requirement [12] CS + Business Major
+Math [11] Math Requirement
+Economics [3] Math Requirement
+Economics [6] Economics Minor
+Math Requirement [14] CS + Business Major
+English [6] HSS Requirement
+HSS Requirement [9] CS + Business Major
+International Relations [4] Electives
+TRAC [4] Electives
+Chinese [2] Electives
+Electives [23] Undergraduate Degree
+Global Citizenship [11] Global Citizenship Certificate
+Global Citizenship Certificate [11] Undergraduate Degree
+Entrepreneurship [9] Entrepreneurship Minor
+Entrepreneurship Minor [9] Undergraduate Degree
+Economics Minor [6] Undergraduate Degree
+Math [4] Data Science Minor
+Data Science Minor [10] Undergraduate Degree
+College [33] TBD
+College [3] A-
+College [3] B+
+College [35] AP/SAT
+College [126] A
